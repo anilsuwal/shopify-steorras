@@ -11,7 +11,7 @@
 }
 .policies {
     display: flex;
-    margin: 2.3rem 0;
+    margin: 2.3rem 0 1.8rem;
 }
 .policies li a, .copyright__content, .copyright__content a {
     letter-spacing: 1.2px;
