@@ -12,7 +12,7 @@
     color: var(--lt-color-white);
 }
 .policies li a:hover {
-    text-decoration: ;
+    text-decoration: none;
     color: var(--lt-color-white);
 }
 .policies li:before {
