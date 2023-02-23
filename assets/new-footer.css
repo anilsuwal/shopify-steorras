@@ -7,7 +7,7 @@
     padding: 4rem 0;
 }
 .policies li a {
-    color: rgb(var(--color-foreground));
+    color: rgb(var(--lt-color-white));
 }
 .policies li:before {
     content: "|";
