@@ -11,6 +11,10 @@
 }
 .list-social__link {
     color: var(--lt-color-white);
+    background: #9C9B9B;
+    padding:1rem;
+    margin: 0 1rem;
+    border-radius: 1rem;
 }
 .policies {
     display: flex;
