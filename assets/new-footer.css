@@ -27,5 +27,4 @@
 }
 .policies li:first-child:before {
     content: "";
-    padding: 0;
 }
