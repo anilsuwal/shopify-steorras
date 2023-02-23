@@ -6,8 +6,10 @@
     border-top: solid 0.1rem rgba(var(--color-foreground),.08);
     padding: 4rem 0;
 }
-.policies li a, .copyright__content, .copyright__content a {
+.copyright__content {
     font-size: calc(var(--font-heading-scale) * 1.6rem);
+}
+.policies li a, .copyright__content, .copyright__content a {
     letter-spacing: 1.2px;
     color: var(--lt-color-white);
 }
