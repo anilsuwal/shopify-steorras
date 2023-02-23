@@ -4,7 +4,7 @@
 .footer__content-bottom {
     background: #767676;
     border-top: solid 0.1rem rgba(var(--color-foreground),.08);
-    padding: 4rem 0;
+    padding-bottom: 4rem;
 }
 .policies li:before {
     content: "|";
