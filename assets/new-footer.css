@@ -6,12 +6,12 @@
     border-top: solid 0.1rem rgba(var(--color-foreground),.08);
     padding: 4rem 0;
 }
-.policies li a, .copyright__content {
+.policies li a, .copyright__content, .copyright__content a {
     font-size: 1.6rem;
     letter-spacing: 1.2px;
     color: var(--lt-color-white);
 }
-.policies li a:hover {
+.policies li a:hover, .copyright__content a:hover {
     text-decoration: none;
     color: var(--lt-color-white);
 }
