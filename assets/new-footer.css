@@ -2,6 +2,6 @@
     justify-content: center;
 }
 .policies li:before {
-    content: "";
+    content: "|";
     padding: 0 0.8rem;
 }
