@@ -308,6 +308,10 @@
       </div>
     </div>
     <div class="footer__">
+      {%- if section.settings.show_social and has_social_icons -%}
+        {%- render 'social-icons' -%}
+      {%- endif -%}
+    </div>
     <div class="footer__content-bottom-wrapper page-width">
       {%- if section.settings.show_policy -%}
         <ul class="policies list-unstyled center">
