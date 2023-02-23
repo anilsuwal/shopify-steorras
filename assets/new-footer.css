@@ -2,10 +2,7 @@
     justify-content: center;
 }
 .footer__content-bottom {
-    background: .footer__content-bottom {
-    border-top: solid 0.1rem rgba(var(--color-foreground),.08);
-    padding-top: 3rem;
-};
+    background: #767676;
     border-top: solid 0.1rem rgba(var(--color-foreground),.08);
     padding: 4rem 0;
 }
