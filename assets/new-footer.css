@@ -9,8 +9,12 @@
 .copyright__content {
     font-size: calc(var(--font-heading-scale) * 1.6rem);
 }
+.policies {
+    margin: 2.3rem 0;
+}
 .policies li a, .copyright__content, .copyright__content a {
     letter-spacing: 1.2px;
+    line-height: normal;
     color: var(--lt-color-white);
 }
 .policies li a:hover, .copyright__content a:hover {
