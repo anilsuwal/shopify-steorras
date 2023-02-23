@@ -6,6 +6,8 @@
     border-top: solid 0.1rem rgba(var(--color-foreground),.08);
     padding: 4rem 0;
 }
+.policies li a {
+color: rgb(var(--color-foreground))
 .policies li:before {
     content: "|";
     padding: 0 0.8rem;
