@@ -19,3 +19,7 @@
     content: "|";
     padding: 0 0.8rem;
 }
+.policies li:first-child:before {
+    content: "";
+    padding: 0;
+}
