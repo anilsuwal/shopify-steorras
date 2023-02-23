@@ -9,6 +9,9 @@
 .copyright__content {
     font-size: calc(var(--font-heading-scale) * 1.6rem);
 }
+.list-social__link {
+    color: var(--lt-color-white);
+}
 .policies {
     display: flex;
     margin: 2.3rem 0 1.8rem;
