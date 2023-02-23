@@ -57,12 +57,18 @@
     {%- unless only_empty_brand -%}
       <div class="footer__content-top page-width">
         {%- if section.blocks.size > 0 -%}
-          {%- liquid
+          {%comment%}{%- liquid
             if section.blocks.size == 9
               assign footer_grid_class = 'grid--3-col-tablet'
             elsif section.blocks.size > 6
               assign footer_grid_class = 'grid--4-col-desktop'
             elsif section.blocks.size > 4
+              assign footer_grid_class = 'grid--3-col-tablet'
+            endif
+          -%}
+          {% endcomment %}
+          {%- liquid
+            if section.blocks.size == 2
               assign footer_grid_class = 'grid--3-col-tablet'
             endif
           -%}
