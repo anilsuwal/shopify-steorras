@@ -1,3 +1,7 @@
 .footer__content-bottom-wrapper {
     justify-content: center;
 }
+.policies li:before {
+    content: "";
+    padding: 0 0.8rem;
+}
