@@ -10,7 +10,8 @@
     font-size: calc(var(--font-heading-scale) * 1.6rem);
 }
 .list-social__link {
-    color: var(--lt-color-white);
+    rgb(var(--color-foreground))
+    color: rgb(var(--lt-color-white));
     background: #9C9B9B;
     padding: 1rem;
     margin: 0 1rem;
