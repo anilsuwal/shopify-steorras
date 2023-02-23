@@ -16,6 +16,10 @@
     margin: 0 1rem;
     border-radius: 1rem;
 }
+.list-social__item .icon {
+    height: 2rem;
+    width: 2rem;
+}
 .policies {
     display: flex;
     margin: 2.3rem 0 1.8rem;
