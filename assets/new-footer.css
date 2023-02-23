@@ -9,6 +9,9 @@
     border-top: solid 0.1rem rgba(var(--color-foreground),.08);
     padding: 4rem 0;
 }
+.footer-block__newsletter {
+    text-align: left;
+}
 .copyright__content {
     font-size: calc(var(--font-heading-scale) * 1.6rem);
 }
