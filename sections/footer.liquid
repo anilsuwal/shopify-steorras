@@ -144,12 +144,7 @@
               </div>
             {%- endfor -%}
               <div class="footer-block grid__item">
-                <p>Shop The Beehive</p>
-              </div>
-          </div>
-        {%- endif -%}
-
-        <div class="footer-block--newsletter">
+                <div class="footer-block--newsletter">
           {%- if section.settings.newsletter_enable -%}
             <div class="footer-block__newsletter">
               {%- if section.settings.newsletter_heading != blank -%}
@@ -212,6 +207,12 @@
           {%- endif -%}
 
         </div>
+              </div>
+              
+          </div>
+        {%- endif -%}
+
+        
       </div>
     {%- endunless -%}
   {%- endif -%}
