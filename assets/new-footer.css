@@ -11,6 +11,10 @@
     letter-spacing: 1.2px;
     color: var(--lt-color-white);
 }
+.policies li a:hover {
+    text-decoration: ;
+    color: var(--lt-color-white);
+}
 .policies li:before {
     content: "|";
     padding: 0 0.8rem;
