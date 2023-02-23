@@ -7,7 +7,8 @@
     padding: 4rem 0;
 }
 .policies li a {
-color: rgb(var(--color-foreground))
+    color: rgb(var(--color-foreground));
+}
 .policies li:before {
     content: "|";
     padding: 0 0.8rem;
