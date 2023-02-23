@@ -146,7 +146,9 @@
                 <h2 class="footer-block__heading">{{ section.settings.newsletter_heading | escape }}</h2>
               {%- endif -%}
               {%- if section.settings.newsletter_text != blank -%}
-                
+                <p class="footer-block__details-content rte">
+                  {{ section.settings.newsletter_text }}
+                </p>
               {%- endif -%}
               {%- form 'customer', id: 'ContactFooter', class: 'footer__newsletter newsletter-form' -%}
                 <input type="hidden" name="contact[tags]" value="newsletter">
