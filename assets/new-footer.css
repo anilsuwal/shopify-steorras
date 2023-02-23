@@ -7,7 +7,9 @@
     padding: 4rem 0;
 }
 .policies li a {
-    color: rgb(var(--lt-color-white));
+    font-size: 1.6rem;
+    letter-spacing: 1.2px;
+    color: var(--lt-color-white);
 }
 .policies li:before {
     content: "|";
