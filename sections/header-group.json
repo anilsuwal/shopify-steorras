@@ -11,7 +11,7 @@
             "text": "Welcome to our store",
             "right_announcement_text": "Right Announcement bar",
             "text_alignment": "center",
-            "color_scheme": "background-1",
+            "color_scheme": "accent-1",
             "link": "",
             "right_announcement_link": ""
           }
