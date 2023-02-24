@@ -9,7 +9,8 @@
               <div class="page-width">
                 <ul>
                   <li>
-                    <li><p class="announcement-bar__message {{ block.settings.text_alignment }} h5">
+                    <li>
+                      <p class="announcement-bar__message {{ block.settings.text_alignment }} h5">
                       <span>{{ block.settings.text | escape }}</span>
                       {%- if block.settings.link != blank -%}
                         {% render 'icon-arrow' %}
