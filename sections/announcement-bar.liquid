@@ -8,14 +8,13 @@
           {%- endif -%}
               <div class="page-width">
                 <ul>
+                  <li><p class="announcement-bar__message {{ block.settings.text_alignment }} h5">
+                    <span>{{ block.settings.text | escape }}</span>
+                    {%- if block.settings.link != blank -%}
+                      {% render 'icon-arrow' %}
+                    {%- endif -%}
+                  </p>
                   <li>
-                    <li>
-                      <p class="announcement-bar__message {{ block.settings.text_alignment }} h5">
-                      <span>{{ block.settings.text | escape }}</span>
-                      {%- if block.settings.link != blank -%}
-                        {% render 'icon-arrow' %}
-                      {%- endif -%}
-                    </p>
                     <p class="announcement-bar__message {{ block.settings.text_alignment }} h5">
                       <span>{{ block.settings.right_announcement_text | escape }}</span>
                       {%- if block.settings.link != blank -%}
