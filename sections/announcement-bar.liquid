@@ -8,6 +8,21 @@
           {%- endif -%}
               <div class="page-width">
                 <ul>
+                  {%- for block in section.blocks -%}
+                    {%- case block.type -%}
+                      {%- when 'announcement' -%}
+                        {%- if block.settings.right_announcement_text != blank -%}
+                          <li>
+                            <p class="announcement-bar__message {{ block.settings.text_alignment }} h5">
+                              <span>{{ block.settings.right_announcement_text | escape }}</span>
+                              {%- if block.settings.link != blank -%}
+                                {% render 'icon-arrow' %}
+                              {%- endif -%}
+                            </p>
+                          </li>
+                        {%- endif -%}
+                      {%- endcase -%}
+                  {%- endfor -%}
                   <li>
                     <p class="announcement-bar__message {{ block.settings.text_alignment }} h5">
                       <span>{{ block.settings.right_announcement_text | escape }}</span>
