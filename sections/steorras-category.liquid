@@ -26,7 +26,7 @@
               <a href="{{ block.settings.image_url }}">
               {% endif %}
               <div class="category-img">
-                {{ block.settings.image | image_url: 'large' | img_tag: block.settings.title }}
+                {{ block.settings.image | image_url: '350x' | img_tag: block.settings.title }}
                 <div class="image-title">
                   <p>{{ block.settings.title | escape }}</p>
                 </div>
