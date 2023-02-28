@@ -9,16 +9,19 @@
           "type": "announcement",
           "settings": {
             "text": "Welcome to our store",
+            "right_announcement_text": "Right Announcement bar",
             "text_alignment": "center",
-            "color_scheme": "background-1",
-            "link": ""
+            "color_scheme": "accent-1",
+            "link": "",
+            "right_announcement_link": ""
           }
         }
       },
       "block_order": [
         "announcement-bar-0"
       ],
-      "settings": {}
+      "settings": {
+      }
     },
     "header": {
       "type": "header",
