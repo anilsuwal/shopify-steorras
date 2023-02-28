@@ -18,10 +18,10 @@
       {% endif %}
 
     </div>
-    <div class="category-list grid">
+    <div class="category-list">
       {%- for block in section.blocks -%}
         {% if block.settings.image %}
-          <div class="category-list-item grid--4-col-desktop grid--6-col-tablet">
+          <div class="category-list-item grid grid--4-col-desktop">
             {% if block.settings.image_url != blank %}
               <a href="{{ block.settings.image_url }}">
               {% endif %}
