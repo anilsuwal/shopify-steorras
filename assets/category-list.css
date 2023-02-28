@@ -10,6 +10,8 @@
 .custom-product-category .category-list-item p {
     font-size: calc(var(--font-heading-scale) * 1.8rem);
     color: #767576;
+    line-height: normal;
+    margin-top: 0;
 }
 .custom-product-category .category-list-item a {
     color: #767576;
