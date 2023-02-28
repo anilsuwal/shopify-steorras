@@ -21,7 +21,7 @@
 
 @media screen and (min-width: 750px){
 .grid {
-    column-gap: calc(var(--grid-desktop-horizontal-spacing) * 1.875);
-    row-gap: calc(var(--grid-desktop-vertical-spacing) * 1.875);
+    column-gap: calc(var(--grid-desktop-horizontal-spacing) * 2.5);
+    row-gap: calc(var(--grid-desktop-vertical-spacing) * 2.5);
 }
 }
