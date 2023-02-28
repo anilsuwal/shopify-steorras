@@ -13,7 +13,7 @@
   <div class="page-width section-{{ section.id }}-padding">
     <div class="category main-heading">
       {% if section.settings.title != blank %}
-        <h4>{{ section.settings.title }}</h4>
+        <h4 class="text--{{ block.settings.text_alignment }}">{{ section.settings.title }}</h4>
       {% endif %}
     </div>
     <div class="category-list">
@@ -47,6 +47,23 @@
         "id": "title",
         "default": "Category Heading",
         "label": "Heading"
+      }, {
+        "type": "select",
+        "id": "text_alignment",
+        "options": [
+          {
+            "value": "left",
+            "label": "t:sections.slideshow.blocks.slide.settings.text_alignment.option_1.label"
+          }, {
+            "value": "center",
+            "label": "t:sections.slideshow.blocks.slide.settings.text_alignment.option_2.label"
+          }, {
+            "value": "right",
+            "label": "t:sections.slideshow.blocks.slide.settings.text_alignment.option_3.label"
+          }
+        ],
+        "default": "center",
+        "label": "t:sections.slideshow.blocks.slide.settings.text_alignment.label"
       }, {
         "type": "range",
         "id": "padding_top",
