@@ -1,8 +1,19 @@
+{{ 'category-list.css' | asset_url | stylesheet_tag }}
+
 {%- style -%}
   .section-{{ section.id }}-padding {
-    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}
-    px;
-    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}
-    px;
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
 {%- endstyle -%}
+
+<div class="custom-product-category">
+  <div class="page-width section-{{ section.id }}-padding">
+    <div class="category main-heading">
+      {% if section.settings.heading != blank %}
+        <h4>{{ section.settings.heading }}</h4>
+      {% endif %}
+    </div>
+
+  </div>
+</div>
