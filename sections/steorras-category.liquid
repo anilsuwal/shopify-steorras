@@ -26,9 +26,7 @@
               <a href="{{ block.settings.image_url }}">
               {% endif %}
               <div class="category-img">
-                {{ block.settings.image | image_url: width: 250 | img_tag: block.settings.title
-                 , loading: 'lazy',
-                 widths: '275, 550, 710, 1420' }}
+                {{ block.settings.image | image_url: '300x' | img_tag: block.settings.title }}
                 <div class="image-title">
                   <p class="center">{{ block.settings.title | escape }}</p>
                 </div>
