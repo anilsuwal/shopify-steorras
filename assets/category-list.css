@@ -6,6 +6,7 @@
 }
 .custom-product-category .category-list-item img {
     width: 100%;
+    border-radius: 1rem;
 }
 .custom-product-category .category-list-item p {
     font-size: calc(var(--font-heading-scale) * 1.8rem);
