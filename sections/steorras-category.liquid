@@ -27,6 +27,7 @@
               {% endif %}
               <div class="category-img">
                 {{ block.settings.image | image_url: '300x' | img_tag: block.settings.title }}
+                <img src="{{block.settings.image | image_url: '300x'}}" />
                 <div class="image-title">
                   <p class="center">{{ block.settings.title | escape }}</p>
                 </div>
