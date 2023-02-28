@@ -12,10 +12,19 @@
             "title": "Gifts For Her",
             "image_url": "shopify:\/\/collections\/gifts-for-her"
           }
+        },
+        "701ae960-9398-40d4-b07c-52c3711a1c87": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_1_copy.png",
+            "title": "Earrings",
+            "image_url": "shopify:\/\/collections\/earrings"
+          }
         }
       },
       "block_order": [
-        "df9f8766-d08f-4e79-8e11-8ac10e90e94a"
+        "df9f8766-d08f-4e79-8e11-8ac10e90e94a",
+        "701ae960-9398-40d4-b07c-52c3711a1c87"
       ],
       "settings": {
         "title": "Category Heading",
