@@ -2,6 +2,28 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
+    "8f1fec6c-f3c9-4d75-bfc5-860361d632b6": {
+      "type": "steorras-category",
+      "blocks": {
+        "df9f8766-d08f-4e79-8e11-8ac10e90e94a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_1.png",
+            "title": "Gifts For Her",
+            "image_url": "shopify:\/\/collections\/gifts-for-her"
+          }
+        }
+      },
+      "block_order": [
+        "df9f8766-d08f-4e79-8e11-8ac10e90e94a"
+      ],
+      "settings": {
+        "title": "Category Heading",
+        "text_alignment": "center",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
     "footer": {
       "type": "footer",
       "blocks": {
@@ -42,6 +64,7 @@
     }
   },
   "order": [
+    "8f1fec6c-f3c9-4d75-bfc5-860361d632b6",
     "footer"
   ]
 }
