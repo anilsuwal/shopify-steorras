@@ -10,4 +10,7 @@
     text-transform: uppercase;
     color: var(--plain-white);
     letter-spacing: 1.8px;
+    min-height: initial;
+    padding: 1.8rem 6rem;
+    border-radius: 1.2rem;
   }
