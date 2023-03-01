@@ -20,7 +20,10 @@
 .footer_main_section .footer-block__details-content li a, .footer_main_section .footer-block__details-content {
     font-size: calc(var(--font-heading-scale) * 1.6rem);
     color: #fafafa;
-    text-decoration: none
+    text-decoration: none;
+}
+.footer_main_section .footer-block__details-content li a {
+    text-transform: uppercase;
 }
 .footer_main_section .footer-block__details-content li a:hover {
     text-decoration: none;
