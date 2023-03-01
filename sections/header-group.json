@@ -8,8 +8,8 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "<p>Welcome <strong>to<\/strong> our store<\/p>",
-            "right_announcement_text": "Right Announcement bar",
+            "text": "<p>Valentine's Day Sale == Get <strong>15%<\/strong> Off Our Paper Heart Pendant<\/p>",
+            "right_announcement_text": "<p>Timeless & Thoughtfully Crafted Jewelry<\/p>",
             "text_alignment": "center",
             "color_scheme": "accent-1",
             "link": "",
