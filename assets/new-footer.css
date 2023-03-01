@@ -61,6 +61,7 @@
     font-size: calc(var(--font-heading-scale) * 1.6rem);
     font-weight: calc(100 + var(--font-body-weight));
     color: #ffffff;
+    box-shadow: none;
 }
 .footer_main_section .newsletter-form__field-wrapper .field__label {
     text-transform: uppercase;
