@@ -53,14 +53,12 @@
     border: 0;
     box-shadow: none;
 }
-.footer_main_section .newsletter-form__field-wrapper .field__input {
-    padding: 1.5rem;
-    border: 2px solid #FAFAFA;
-}
 .footer_main_section .newsletter-form__field-wrapper .field__input{
     font-size: calc(var(--font-heading-scale) * 1.6rem);
     font-weight: calc(100 + var(--font-body-weight));
     color: #ffffff;
+    padding: 1.5rem;
+    border: 2px solid #FAFAFA;
     box-shadow: none;
 }
 .footer_main_section .newsletter-form__field-wrapper .field__label {
