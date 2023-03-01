@@ -20,7 +20,11 @@
     box-shadow: none;
   }
   .image-with-bg-full .image-with-text__heading {
+<<<<<<< HEAD
+    font-size: calc(var(--font-heading-scale) * 3.8rem);
+=======
     font-size: calc(var(--font-heading-scale) * 4rem);
+>>>>>>> fa18d1dfc1c616487ea85d44ae7f2fe222272294
     line-height: calc(1 + 0.2 / var(--font-body-scale));
     color: var(--gray);
     margin-bottom: 3rem;
