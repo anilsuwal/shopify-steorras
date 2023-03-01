@@ -55,7 +55,6 @@
     },
     "08338a42-c304-49d4-8260-127cabcdb99a": {
       "type": "multicolumn",
-      "disabled": true,
       "blocks": {
         "template--18110043554102__08338a42-c304-49d4-8260-127cabcdb99a-16776855877be8c49b-0": {
           "type": "column",
@@ -93,14 +92,14 @@
         "template--18110043554102__08338a42-c304-49d4-8260-127cabcdb99a-16776855877be8c49b-2"
       ],
       "settings": {
-        "title": "",
+        "title": "hkl",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
         "column_alignment": "center",
         "background_style": "none",
-        "button_label": "",
+        "button_label": "io",
         "button_link": "",
         "color_scheme": "background-1",
         "columns_mobile": "1",
@@ -154,8 +153,6 @@
         "columns_desktop": 3,
         "column_alignment": "left",
         "background_style": "none",
-        "button_label": "Button label",
-        "button_link": "",
         "color_scheme": "background-1",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
