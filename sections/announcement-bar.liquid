@@ -26,7 +26,7 @@
                 {%- if block.settings.right_announcement_link != blank -%}
                   <a href="{{ block.settings.right_announcement_link }}" class="announcement-bar__link link link--text focus-inset animate-arrow">
                   {%- endif -%}
-                  {{ block.settings.right_announcement_text | escape }}
+                  {{ block.settings.right_announcement_text }}
                   {%- if block.settings.right_announcement_link != blank -%}
                     {% render 'icon-arrow' %}
                   </a>
