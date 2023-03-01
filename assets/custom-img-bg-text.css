@@ -14,3 +14,7 @@
     padding: 1.8rem 6rem;
     border-radius: 1.2rem;
   }
+  .image-with-bg-full .image-with-text__content a:before, .image-with-bg-full .image-with-text__content a:after {
+    border: 0;
+    box-shadow: none;
+  }
