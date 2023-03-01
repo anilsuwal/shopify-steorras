@@ -10,7 +10,8 @@
     padding: 4rem 0;
 }
 .footer-block__heading {
-    font-size: calc(var(--font-heading-scale) * 2.4rem);
+    font-size: calc(var(--font-heading-scale) * 2rem);
+    text-transform: capitalize;
 }
 .footer-block__newsletter {
     text-align: left;
