@@ -41,12 +41,17 @@
     max-width: 100%;
     width: 100%;
 }
+.footer_main_section .newsletter-form__field-wrapper .field {
+    margin: 1.5rem 0 3rem;
+}
 .footer_main_section .newsletter-form__field-wrapper .field__input {
-
+    font-size: calc(var(--font-heading-scale) * 1.6rem);
+    font-weight: calc(100 + var(--font-body-weight));
+    padding-right: 1.5rem;
 }
 .footer_main_section .submit_btn .newsletter-form__button {
+    font-size: calc(var(--font-heading-scale) * 1.6rem);
     position: initial;
-    font-size: 16px;
     font-weight: calc(100 + var(--font-body-weight));
     width: auto;
     display: inline-block;
