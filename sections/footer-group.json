@@ -2,37 +2,6 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
-    "8f1fec6c-f3c9-4d75-bfc5-860361d632b6": {
-      "type": "steorras-category",
-      "blocks": {
-        "df9f8766-d08f-4e79-8e11-8ac10e90e94a": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/image_14.png",
-            "title": "Gifts For Her",
-            "image_url": "shopify:\/\/collections\/gifts-for-her"
-          }
-        },
-        "701ae960-9398-40d4-b07c-52c3711a1c87": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Group_1_copy.png",
-            "title": "Earrings",
-            "image_url": "shopify:\/\/collections\/earrings"
-          }
-        }
-      },
-      "block_order": [
-        "df9f8766-d08f-4e79-8e11-8ac10e90e94a",
-        "701ae960-9398-40d4-b07c-52c3711a1c87"
-      ],
-      "settings": {
-        "title": "Category Heading",
-        "text_alignment": "center",
-        "padding_top": 68,
-        "padding_bottom": 70
-      }
-    },
     "footer": {
       "type": "footer",
       "blocks": {
@@ -60,20 +29,20 @@
         "newsletter_enable": true,
         "newsletter_heading": "Sign-Up ",
         "newsletter_text": "<p>Sign up for exclusive offers, original stories, events and more.<\/p>",
+        "subscribe_button": "Submit",
         "enable_follow_on_shop": false,
         "show_social": true,
         "enable_country_selector": false,
         "enable_language_selector": true,
         "payment_enable": true,
         "show_policy": true,
-        "margin_top": 40,
-        "padding_top": 40,
+        "margin_top": 0,
+        "padding_top": 80,
         "padding_bottom": 0
       }
     }
   },
   "order": [
-    "8f1fec6c-f3c9-4d75-bfc5-860361d632b6",
     "footer"
   ]
 }

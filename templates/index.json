@@ -72,10 +72,106 @@
         "padding_top": 28,
         "padding_bottom": 36
       }
+    },
+    "198bace3-6626-43c3-ba03-16ecd5e3b2b7": {
+      "type": "custom-img-bg-text",
+      "blocks": {
+        "template--18110043357494__198bace3-6626-43c3-ba03-16ecd5e3b2b7-1677683556ba4cbe11-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Fine jewelry that you'll treasure for a lifetime  ",
+            "heading_size": "h1"
+          }
+        },
+        "template--18110043357494__198bace3-6626-43c3-ba03-16ecd5e3b2b7-1677683556ba4cbe11-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Thank you for choosing Steorras as your preferred online jewelry store.   <\/p><p>We're dedicated to providing the best online jewelry shopping experience possible, from our user-friendly website to our outstanding customer service. If you have any questions or need assistance with your purchase, our customer service team is always happy to help.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--18110043357494__198bace3-6626-43c3-ba03-16ecd5e3b2b7-1677683556ba4cbe11-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "shop now",
+            "button_link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "template--18110043357494__198bace3-6626-43c3-ba03-16ecd5e3b2b7-1677683556ba4cbe11-0",
+        "template--18110043357494__198bace3-6626-43c3-ba03-16ecd5e3b2b7-1677683556ba4cbe11-1",
+        "template--18110043357494__198bace3-6626-43c3-ba03-16ecd5e3b2b7-1677683556ba4cbe11-2"
+      ],
+      "settings": {
+        "background_image": "shopify:\/\/shop_images\/420ED4FA-60D4-4212-9F53-2AC2308A16C3.png",
+        "image": "shopify:\/\/shop_images\/420ED4FA-60D4-4212-9F53-2AC2308A16C3.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "5656aaec-973a-400d-bacb-2922d4b4ecc4": {
+      "type": "steorras-category",
+      "blocks": {
+        "340a50ec-0d36-4a64-8f8c-332d45663d76": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_14.png",
+            "title": "Gifts For Her",
+            "image_url": "shopify:\/\/collections\/gifts-for-her"
+          }
+        },
+        "a469b13d-cc4b-4d72-8bd6-ecc5707de009": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_1_copy.png",
+            "title": "Earrings",
+            "image_url": "shopify:\/\/collections\/earrings"
+          }
+        },
+        "246ce8fc-8679-4087-ad14-9110aad58f45": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_1_copy_2.png",
+            "title": "Chains",
+            "image_url": "shopify:\/\/collections\/chains"
+          }
+        },
+        "9bf0ed1d-8a3a-4cfd-bf6c-6ffd3d17252b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_1_copy_3.png",
+            "title": "Necklaces & Pendants",
+            "image_url": "shopify:\/\/collections\/necklaces-pendants"
+          }
+        }
+      },
+      "block_order": [
+        "340a50ec-0d36-4a64-8f8c-332d45663d76",
+        "a469b13d-cc4b-4d72-8bd6-ecc5707de009",
+        "246ce8fc-8679-4087-ad14-9110aad58f45",
+        "9bf0ed1d-8a3a-4cfd-bf6c-6ffd3d17252b"
+      ],
+      "settings": {
+        "title": "Category Heading",
+        "text_alignment": "center",
+        "padding_top": 70,
+        "padding_bottom": 80
+      }
     }
   },
   "order": [
     "image_banner",
-    "featured_collection"
+    "featured_collection",
+    "198bace3-6626-43c3-ba03-16ecd5e3b2b7",
+    "5656aaec-973a-400d-bacb-2922d4b4ecc4"
   ]
 }
