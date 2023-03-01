@@ -1,5 +1,5 @@
-.main_navigation_section {
-    margin-top: 5rem;
+.main_navigation_section .list-menu--inline {
+    margin-top: 3.9rem;
 }
 .main_navigation_section .header__menu-item {
     font-size: calc(var(--font-heading-scale) * 1.8rem);
