@@ -140,8 +140,9 @@
         "246ce8fc-8679-4087-ad14-9110aad58f45": {
           "type": "image",
           "settings": {
-            "title": "Category Name",
-            "image_url": ""
+            "image": "shopify:\/\/shop_images\/Group_1_copy_2.png",
+            "title": "Chains",
+            "image_url": "shopify:\/\/collections\/chains"
           }
         },
         "9bf0ed1d-8a3a-4cfd-bf6c-6ffd3d17252b": {
