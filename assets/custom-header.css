@@ -1,0 +1,11 @@
+.main_navigation_section .list-menu--inline {
+    margin-top: 3.9rem;
+}
+.main_navigation_section .header__menu-item {
+    font-size: calc(var(--font-heading-scale) * 1.8rem);
+    color: var(--gray);
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    margin: 0 3.5rem;
+    padding: 0;
+}

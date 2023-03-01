@@ -1,6 +1,32 @@
 /* Import fonts */
 @import url('https://fonts.cdnfonts.com/css/safira-march-personal-use');
 
+/* Custom Color */
+
+:root {
+  --plain-white: #ffffff;
+  --alabaster: #fafafa;
+  --plain-black: #ffffff;
+
+  --tundora: #4B4B4B;
+
+  --gray: #333333;
+  --boulder: #747474;
+}
+
+.mt-0 {
+  margin-top: 0;
+}
+.justify-between {
+    justify-content: space-between;
+} 
+.align-center {
+    align-items: center;
+}
+.no-wrap {
+    flex-wrap: nowrap !important;
+}
+
 /* Color custom properties */
 
 :root,
@@ -320,6 +346,7 @@ body,
 .color-accent-2 {
   color: rgba(var(--color-foreground), 0.75);
   background-color: rgb(var(--color-background));
+  letter-spacing: 0;
 }
 
 .background-secondary {

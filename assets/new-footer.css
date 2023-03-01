@@ -1,6 +1,9 @@
 .footer:not(.color-background-1) {
     border-top: 3rem solid #ECCAC2;
 }
+.footer__content-top {
+    padding-bottom: 8rem;
+}
 .footer__content-bottom-wrapper {
     justify-content: center;
 }
@@ -9,8 +12,71 @@
     border-top: solid 0.1rem rgba(var(--color-foreground),.08);
     padding: 4rem 0;
 }
+.footer_main_section .footer-block__heading {
+    font-size: calc(var(--font-heading-scale) * 2rem);
+    text-transform: capitalize;
+    color: var(--alabaster);
+    line-height: normal;
+}
 .footer-block__newsletter {
     text-align: left;
+}
+.footer_main_section .footer-block__details-content li a, .footer_main_section .footer-block__details-content {
+    font-size: calc(var(--font-heading-scale) * 1.6rem);
+    line-height: calc(1 + 0.6 / var(--font-body-scale));
+    color: var(--alabaster);
+    text-decoration: none;
+}
+.footer_main_section .footer-block__details-content li a {
+    text-transform: uppercase;
+    line-height: calc(2 / var(--font-body-scale));
+}
+.footer_main_section .footer-block__details-content li a:hover {
+    color: var(--alabaster);
+}
+.footer_main_section .newsletter-form {
+    max-width: 100%;
+    width: 100%;
+    position: initial;
+    display: block;
+}
+.footer_main_section  .newsletter-form__field-wrapper {
+    max-width: 100%;
+    width: 100%;
+}
+.footer_main_section .newsletter-form__field-wrapper .field {
+    margin: 1.8rem 0 3.5rem;
+    border: 0;
+    box-shadow: none;
+}
+.footer_main_section .newsletter-form__field-wrapper .field:before, .footer_main_section .newsletter-form__field-wrapper .field:after {
+    border: 0;
+    box-shadow: none;
+}
+.footer_main_section .newsletter-form__field-wrapper .field__input{
+    font-size: calc(var(--font-heading-scale) * 1.6rem);
+    font-weight: calc(100 + var(--font-body-weight));
+    color: var(--plain-white);
+    padding: 1.5rem;
+    border: 2px solid var(--alabaster);
+    box-shadow: none;
+}
+.footer_main_section .newsletter-form__field-wrapper .field__label {
+    text-transform: uppercase;
+    font-weight: calc(100 + var(--font-body-weight));
+    color: var(--plain-white);
+}
+.footer_main_section .submit_btn .newsletter-form__button {
+    font-size: calc(var(--font-heading-scale) * 1.6rem);
+    position: initial;
+    font-weight: calc(100 + var(--font-body-weight));
+    width: auto;
+    display: inline-block;
+    text-transform: uppercase;
+    background: #ECCAC2;
+    padding: 1.5rem 5rem;
+    border-radius: 0.8rem;
+    letter-spacing: 1.2px;
 }
 .copyright__content {
     font-size: calc(var(--font-heading-scale) * 1.6rem);

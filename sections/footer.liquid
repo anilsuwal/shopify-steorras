@@ -73,7 +73,7 @@
               assign footer_grid_class = 'grid--3-col-tablet'
             endif
           -%}
-          <div class="footer__blocks-wrapper grid grid--1-col grid--2-col grid--4-col-tablet {{ footer_grid_class }}">
+          <div class="footer__blocks-wrapper grid grid--1-col grid--2-col grid--4-col-tablet {{ footer_grid_class }}  footer_main_section">
             {%- for block in section.blocks -%}
               <div class="footer-block grid__item{% if block.type == 'link_list' %} footer-block--menu{% endif %}" {{ block.shopify_attributes }}>
                 {%- if block.settings.heading != blank -%}
@@ -151,9 +151,9 @@
                     <h2 class="footer-block__heading">{{ section.settings.newsletter_heading | escape }}</h2>
                   {%- endif -%}
                 {%- if section.settings.newsletter_text != blank -%}
-                  <p class="footer-block__details-content rte">
+                  <div class="footer-block__details-content rte">
                     {{ section.settings.newsletter_text }}
-                  </p>
+                  </div>
                 {%- endif -%}
                 {%- form 'customer', id: 'ContactFooter', class: 'footer__newsletter newsletter-form' -%}
                   <input type="hidden" name="contact[tags]" value="newsletter">
@@ -182,9 +182,10 @@
                       <label class="field__label" for="NewsletterForm--{{ section.id }}">
                         {{ 'newsletter.label' | t }}
                       </label>
+                    </div>
+                    <div class="submit_btn right">
                       <button type="submit" class="newsletter-form__button field__button" name="commit" id="Subscribe" aria-label="{{ 'newsletter.button_label' | t }}">
-                        {% render 'icon-arrow' %}
-                        {{ sections.settings.subscribe_button | escape }}
+                        {{ section.settings.subscribe_button | escape }}
                       </button>
                     </div>
                     {%- if form.errors -%}
