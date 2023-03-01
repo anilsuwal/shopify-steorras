@@ -34,6 +34,12 @@
 .footer_main_section .newsletter-form {
     max-width: 100%;
     width: 100%;
+    position: initial;
+    display: block;
+}
+.footer_main_section  .newsletter-form__field-wrapper {
+    max-width: 100%;
+    width: 100%;
 }
 .footer_main_section .submit_btn .newsletter-form__button {
 
