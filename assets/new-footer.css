@@ -46,7 +46,7 @@
 }
 .footer_main_section .newsletter-form__field-wrapper .field__input {
     padding: 1.5rem;
-    border-color: #ffffff;
+    border: 2px solid #ffffff;
 }
 .footer_main_section .newsletter-form__field-wrapper .field__input{
     font-size: calc(var(--font-heading-scale) * 1.6rem);
