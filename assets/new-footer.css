@@ -15,7 +15,7 @@
 .footer_main_section .footer-block__heading {
     font-size: calc(var(--font-heading-scale) * 2rem);
     text-transform: capitalize;
-    color: #fafafa;
+    color: --alabaster;
     line-height: normal;
 }
 .footer-block__newsletter {
@@ -24,7 +24,7 @@
 .footer_main_section .footer-block__details-content li a, .footer_main_section .footer-block__details-content {
     font-size: calc(var(--font-heading-scale) * 1.6rem);
     line-height: calc(1 + 0.6 / var(--font-body-scale));
-    color: #fafafa;
+    color: var(--alabaster);
     text-decoration: none;
 }
 .footer_main_section .footer-block__details-content li a {
@@ -32,7 +32,7 @@
     line-height: calc(2 / var(--font-body-scale));
 }
 .footer_main_section .footer-block__details-content li a:hover {
-    color: #fafafa;
+    color: var(--alabaster);
 }
 .footer_main_section .newsletter-form {
     max-width: 100%;
@@ -58,7 +58,7 @@
     font-weight: calc(100 + var(--font-body-weight));
     color: #ffffff;
     padding: 1.5rem;
-    border: 2px solid #FAFAFA;
+    border: 2px solid --alabaster;
     box-shadow: none;
 }
 .footer_main_section .newsletter-form__field-wrapper .field__label {
