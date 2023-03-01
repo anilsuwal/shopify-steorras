@@ -24,7 +24,7 @@
     align-items: center;
 }
 .no-wrap {
-    flex-wrap: nowrap;
+    flex-wrap: nowrap !important;
 }
 
 /* Color custom properties */
