@@ -52,6 +52,9 @@
     font-weight: calc(100 + var(--font-body-weight));
     color: #ffffff;
 }
+.footer_main_section .newsletter-form__field-wrapper .field__label {
+    text-transform: uppercase;
+}
 .footer_main_section .submit_btn .newsletter-form__button {
     font-size: calc(var(--font-heading-scale) * 1.6rem);
     position: initial;
