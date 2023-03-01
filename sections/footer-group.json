@@ -2,55 +2,6 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
-    "8f1fec6c-f3c9-4d75-bfc5-860361d632b6": {
-      "type": "steorras-category",
-      "blocks": {
-        "df9f8766-d08f-4e79-8e11-8ac10e90e94a": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/image_14.png",
-            "title": "Gifts For Her",
-            "image_url": "shopify:\/\/collections\/gifts-for-her"
-          }
-        },
-        "701ae960-9398-40d4-b07c-52c3711a1c87": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Group_1_copy.png",
-            "title": "Earrings",
-            "image_url": "shopify:\/\/collections\/earrings"
-          }
-        },
-        "fdb09d7a-2ade-492a-afe7-34d0c682e142": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Group_1_copy_2.png",
-            "title": "Chains",
-            "image_url": "shopify:\/\/collections\/chains"
-          }
-        },
-        "fa5441ec-814c-4bdb-8a22-3e2e75bdc484": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Group_1_copy_3.png",
-            "title": "Necklaces & Pendants",
-            "image_url": "shopify:\/\/collections\/necklaces-pendants"
-          }
-        }
-      },
-      "block_order": [
-        "df9f8766-d08f-4e79-8e11-8ac10e90e94a",
-        "701ae960-9398-40d4-b07c-52c3711a1c87",
-        "fdb09d7a-2ade-492a-afe7-34d0c682e142",
-        "fa5441ec-814c-4bdb-8a22-3e2e75bdc484"
-      ],
-      "settings": {
-        "title": "Category Heading",
-        "text_alignment": "center",
-        "padding_top": 70,
-        "padding_bottom": 80
-      }
-    },
     "footer": {
       "type": "footer",
       "blocks": {
@@ -92,7 +43,6 @@
     }
   },
   "order": [
-    "8f1fec6c-f3c9-4d75-bfc5-860361d632b6",
     "footer"
   ]
 }
