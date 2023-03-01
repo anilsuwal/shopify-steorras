@@ -42,7 +42,7 @@
     width: 100%;
 }
 .footer_main_section .submit_btn .newsletter-form__button {
-
+    position: initital;
 }
 .copyright__content {
     font-size: calc(var(--font-heading-scale) * 1.6rem);
