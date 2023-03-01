@@ -41,9 +41,13 @@
     max-width: 100%;
     width: 100%;
 }
+.footer_main_section .newsletter-form__field-wrapper .field__input {
+
+}
 .footer_main_section .submit_btn .newsletter-form__button {
     position: initial;
     font-size: 16px;
+    font-weight: calc(100 + var(--font-body-weight);)
     width: auto;
     display: inline-block;
     text-transform: uppercase;
