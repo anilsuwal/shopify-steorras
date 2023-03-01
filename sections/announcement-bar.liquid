@@ -1,3 +1,7 @@
+<style>
+.top-announcement-section {
+}
+</style>
 {%- for block in section.blocks -%}
   {%- case block.type -%}
     {%- when 'announcement' -%}
@@ -7,7 +11,7 @@
       aria-label="{{ 'sections.header.announcement' | t }}"
       {{ block.shopify_attributes }}>
       {%- if block.settings.text != blank -%}
-        <div class="page-width">
+        <div class="page-width top-announcement-section">
           <ul class="grid justify-between align-center mt-0">
             <li class="list-unstyled ">
               <p class="announcement-bar__message {{ block.settings.text_alignment }}">
