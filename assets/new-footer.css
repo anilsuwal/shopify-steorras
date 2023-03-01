@@ -42,7 +42,11 @@
     width: 100%;
 }
 .footer_main_section .submit_btn .newsletter-form__button {
-    position: initital;
+    position: initial;
+    font-size: 16px;
+    width: 100%;
+    display: block;
+    text-transform: uppercase;
 }
 .copyright__content {
     font-size: calc(var(--font-heading-scale) * 1.6rem);
