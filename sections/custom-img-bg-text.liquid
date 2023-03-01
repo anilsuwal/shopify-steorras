@@ -1,13 +1,11 @@
 {{ 'component-image-with-text.css' | asset_url | stylesheet_tag }}
 {{ 'component-rte.css' | asset_url | stylesheet_tag }}
+{{ 'custom-img-bg-text.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
   .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
-  }
-  .image-with-bg-full {
-    position: relative;
   }
   .image-with-bg-full:before {
     position: absolute;
@@ -20,9 +18,6 @@
     left: 0;
     width: 50%;
 }
-  .image-with-bg-full .image-with-text__content {
-    padding: 6rem 0 6rem 5rem;
-  }
 
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
