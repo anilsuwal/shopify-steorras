@@ -132,8 +132,9 @@
         "a469b13d-cc4b-4d72-8bd6-ecc5707de009": {
           "type": "image",
           "settings": {
-            "title": "Category Name",
-            "image_url": ""
+            "image": "shopify:\/\/shop_images\/Group_1_copy.png",
+            "title": "Earrings",
+            "image_url": "shopify:\/\/collections\/earrings"
           }
         },
         "246ce8fc-8679-4087-ad14-9110aad58f45": {
