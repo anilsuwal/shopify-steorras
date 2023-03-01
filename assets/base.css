@@ -1,13 +1,7 @@
 /* Import fonts */
 @import url('https://fonts.cdnfonts.com/css/safira-march-personal-use');
 
-/* Custom Color */
 
-:root {
-  --plain-white: #ffffff;
-  --alabaster: #fafafa;
-  --plain-black: #ffffff;
-}
 
 /* Color custom properties */
 
@@ -230,6 +224,14 @@
   --shadow-blur-radius: var(--media-shadow-blur-radius);
   --shadow-opacity: var(--media-shadow-opacity);
   --shadow-visible: var(--media-shadow-visible);
+}
+
+/* Custom Color */
+
+:root {
+  --plain-white: #ffffff;
+  --alabaster: #fafafa;
+  --plain-black: #ffffff;
 }
 
 /* base */
