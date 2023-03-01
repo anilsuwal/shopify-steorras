@@ -23,7 +23,7 @@
     font-size: calc(var(--font-heading-scale) * 4rem);
     line-height: calc(1 + 0.2 / var(--font-body-scale));
     color: var(--gray);
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
   }
   .image-with-bg-full .image-with-text__text {
     font-size: calc(var(--font-heading-scale) * 1.6rem);
