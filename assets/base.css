@@ -9,6 +9,16 @@
   --plain-black: #ffffff;
 }
 
+.mt-0 {
+  margin-top: 0;
+}
+.justify-between {
+    justify-content: space-between;
+} 
+.align-center {
+    align-items: center;
+}
+
 /* Color custom properties */
 
 :root,
