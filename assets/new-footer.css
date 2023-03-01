@@ -9,7 +9,7 @@
     border-top: solid 0.1rem rgba(var(--color-foreground),.08);
     padding: 4rem 0;
 }
-.footer-block__heading {
+.footer_main_section .footer-block__heading {
     font-size: calc(var(--font-heading-scale) * 2rem);
     text-transform: capitalize;
     color: #fafafa;
@@ -17,7 +17,7 @@
 .footer-block__newsletter {
     text-align: left;
 }
-.submit_btn .newsletter-form__button {
+.footer_main_section .submit_btn .newsletter-form__button {
 
 }
 .copyright__content {
