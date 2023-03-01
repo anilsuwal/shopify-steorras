@@ -5,7 +5,7 @@
     padding: 6rem 0 6rem 5rem;
   }
   .image-with-bg-full .image-with-text__content a {
-    font-size: calc(var(--font-heading-scale) * 2.2rem);
+    font-size: calc(var(--font-heading-scale) * 1.8rem);
     font-weight: calc(100 + var(--font-body-weight));
     text-transform: uppercase;
     color: var(--plain-white);
