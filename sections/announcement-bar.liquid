@@ -14,7 +14,7 @@
         <div class="page-width top-announcement-section">
           <ul class="grid justify-between align-center mt-0">
             <li class="list-unstyled ">
-              <p class="announcement-bar__message {{ block.settings.text_alignment }}">
+              <div class="announcement-bar__message {{ block.settings.text_alignment }}">
                 {%- if block.settings.link != blank -%}
                   <a href="{{ block.settings.link }}" class="announcement-bar__link link link--text focus-inset animate-arrow">
                   {%- endif -%}
@@ -23,10 +23,10 @@
                     {% render 'icon-arrow' %}
                   </a>
                 {%- endif -%}
-              </p>
+              </div>
             </li>
             <li class="list-unstyled ">
-              <p class="announcement-bar__message {{ block.settings.text_alignment }}">
+              <div class="announcement-bar__message {{ block.settings.text_alignment }}">
                 {%- if block.settings.right_announcement_link != blank -%}
                   <a href="{{ block.settings.right_announcement_link }}" class="announcement-bar__link link link--text focus-inset animate-arrow">
                   {%- endif -%}
@@ -35,7 +35,7 @@
                     {% render 'icon-arrow' %}
                   </a>
                 {%- endif -%}
-              </p>
+              </div>
             </li>
           </ul>
 
