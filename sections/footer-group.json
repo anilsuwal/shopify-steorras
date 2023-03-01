@@ -30,7 +30,7 @@
         "title": "Category Heading",
         "text_alignment": "center",
         "padding_top": 68,
-        "padding_bottom": 70
+        "padding_bottom": 30
       }
     },
     "footer": {

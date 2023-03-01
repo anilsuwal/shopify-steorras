@@ -3,6 +3,7 @@
     line-height: 48px;
     font-family: 'Safira March Personal Use', sans-serif;
     letter-spacing: 1.8px;
+    margin: 0 auto 5rem;
 }
 .custom-product-category .category-list-item img {
     width: 100%;
