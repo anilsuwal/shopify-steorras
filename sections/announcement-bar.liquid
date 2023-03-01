@@ -1,12 +1,26 @@
-<style>
-.top-announcement-section {
-}
-</style>
+
+{%- style -%}
+  .top-announcement-section {
+  
+  }
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 1 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 1 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
 {%- for block in section.blocks -%}
   {%- case block.type -%}
     {%- when 'announcement' -%}
     <div
-      class="announcement-bar color-{{ block.settings.color_scheme }} gradient"
+      class="announcement-bar color-{{ block.settings.color_scheme }} gradient section-{{ section.id }}-padding"
       role="region"
       aria-label="{{ 'sections.header.announcement' | t }}"
       {{ block.shopify_attributes }}>
