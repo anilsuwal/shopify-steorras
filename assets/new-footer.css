@@ -46,6 +46,12 @@
 }
 .footer_main_section .newsletter-form__field-wrapper .field {
     margin: 1.5rem 0 3rem;
+    border: 0;
+    box-shadow: none;
+}
+.footer_main_section .newsletter-form__field-wrapper .field:before, .footer_main_section .newsletter-form__field-wrapper .field:after {
+    border: 0;
+    box-shadow: none;
 }
 .footer_main_section .newsletter-form__field-wrapper .field__input {
     padding: 1.5rem;
