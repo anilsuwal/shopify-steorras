@@ -146,14 +146,12 @@
         "template--18110043554102__b9fa970c-54f0-40dc-9d9e-60fa8d2950fc-1677686573c6e5bd6f-2"
       ],
       "settings": {
-        "title": "Multicolumn",
-        "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
         "column_alignment": "left",
         "background_style": "none",
-        "color_scheme": "background-1",
+        "color_scheme": "accent-1",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
