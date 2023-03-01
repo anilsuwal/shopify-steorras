@@ -1,3 +1,4 @@
-.main_navigation_section {
-    
+.main_navigation_section .header__menu-item {
+    font-size: calc(var(--font-heading-scale) * 1.6rem);
+    color: var(--gray);
 }
