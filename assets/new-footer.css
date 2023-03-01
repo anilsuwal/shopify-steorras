@@ -48,13 +48,15 @@
     padding: 1.5rem;
     border-color: #ffffff;
 }
-.footer_main_section .newsletter-form__field-wrapper .field__input, .footer_main_section .newsletter-form__field-wrapper .field__label {
+.footer_main_section .newsletter-form__field-wrapper .field__input{
     font-size: calc(var(--font-heading-scale) * 1.6rem);
     font-weight: calc(100 + var(--font-body-weight));
     color: #ffffff;
 }
 .footer_main_section .newsletter-form__field-wrapper .field__label {
     text-transform: uppercase;
+    font-weight: calc(100 + var(--font-body-weight));
+    color: #ffffff;
 }
 .footer_main_section .submit_btn .newsletter-form__button {
     font-size: calc(var(--font-heading-scale) * 1.6rem);
