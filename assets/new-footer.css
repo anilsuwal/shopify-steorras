@@ -22,6 +22,10 @@
     color: #fafafa;
     text-decoration: none
 }
+.footer_main_section .footer-block__details-content li a:hover {
+    text-decoration: none;
+    color: #fafafa;
+}
 .footer_main_section .submit_btn .newsletter-form__button {
 
 }
