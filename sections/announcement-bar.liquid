@@ -1,18 +1,6 @@
-
 {%- style -%}
-  .top-announcement-section {
-  
-  }
-  .section-{{ section.id }}-padding {
-    padding-top: {{ section.settings.padding_top | times: 1 | round: 0 }}px;
-    padding-bottom: {{ section.settings.padding_bottom | times: 1 | round: 0 }}px;
-  }
-
-  @media screen and (min-width: 750px) {
-    .section-{{ section.id }}-padding {
-      padding-top: {{ section.settings.padding_top }}px;
-      padding-bottom: {{ section.settings.padding_bottom }}px;
-    }
+  .top-announcement-section .announcement-bar__message {
+    padding: 0;
   }
 {%- endstyle -%}
 
@@ -20,7 +8,7 @@
   {%- case block.type -%}
     {%- when 'announcement' -%}
     <div
-      class="announcement-bar color-{{ block.settings.color_scheme }} gradient section-{{ section.id }}-padding"
+      class="announcement-bar color-{{ block.settings.color_scheme }} gradient"
       role="region"
       aria-label="{{ 'sections.header.announcement' | t }}"
       {{ block.shopify_attributes }}>
@@ -131,26 +119,6 @@
             "type": "url",
             "id": "right_announcement_link",
             "label": "Right announcement bar link"
-          },
-          {
-            "type": "range",
-            "id": "padding_top",
-            "min": 0,
-            "max": 100,
-            "step": 4,
-            "unit": "px",
-            "label": "Padding Top",
-            "default": 36
-          },
-          {
-            "type": "range",
-            "id": "padding_bottom",
-            "min": 0,
-            "max": 100,
-            "step": 4,
-            "unit": "px",
-            "label": "Paddimng Bottom",
-            "default": 36
           }
         ]
       }
