@@ -31,6 +31,10 @@
 .footer_main_section .footer-block__details-content li a:hover {
     color: #fafafa;
 }
+.footer_main_section .newsletter-form {
+    max-width: 100%;
+    width: 100%;
+}
 .footer_main_section .submit_btn .newsletter-form__button {
 
 }
