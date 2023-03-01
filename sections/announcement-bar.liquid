@@ -14,7 +14,7 @@
                 {%- if block.settings.link != blank -%}
                   <a href="{{ block.settings.link }}" class="announcement-bar__link link link--text focus-inset animate-arrow">
                   {%- endif -%}
-                  {{ block.settings.text | t }}
+                  {{ block.settings.text }}
                   {%- if block.settings.link != blank -%}
                     {% render 'icon-arrow' %}
                   </a>
