@@ -56,15 +56,15 @@
 .footer_main_section .newsletter-form__field-wrapper .field__input{
     font-size: calc(var(--font-heading-scale) * 1.6rem);
     font-weight: calc(100 + var(--font-body-weight));
-    color: #ffffff;
+    color: var(--plain-white);
     padding: 1.5rem;
-    border: 2px solid --alabaster;
+    border: 2px solid var(--alabaster);
     box-shadow: none;
 }
 .footer_main_section .newsletter-form__field-wrapper .field__label {
     text-transform: uppercase;
     font-weight: calc(100 + var(--font-body-weight));
-    color: #ffffff;
+    color: var(--plain-white);
 }
 .footer_main_section .submit_btn .newsletter-form__button {
     font-size: calc(var(--font-heading-scale) * 1.6rem);
