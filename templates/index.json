@@ -117,11 +117,58 @@
         "padding_top": 60,
         "padding_bottom": 60
       }
+    },
+    "5656aaec-973a-400d-bacb-2922d4b4ecc4": {
+      "type": "steorras-category",
+      "blocks": {
+        "340a50ec-0d36-4a64-8f8c-332d45663d76": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_14.png",
+            "title": "Gifts For Her",
+            "image_url": "shopify:\/\/collections\/gifts-for-her"
+          }
+        },
+        "a469b13d-cc4b-4d72-8bd6-ecc5707de009": {
+          "type": "image",
+          "settings": {
+            "title": "Category Name",
+            "image_url": ""
+          }
+        },
+        "246ce8fc-8679-4087-ad14-9110aad58f45": {
+          "type": "image",
+          "settings": {
+            "title": "Category Name",
+            "image_url": ""
+          }
+        },
+        "9bf0ed1d-8a3a-4cfd-bf6c-6ffd3d17252b": {
+          "type": "image",
+          "settings": {
+            "title": "Category Name",
+            "image_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "340a50ec-0d36-4a64-8f8c-332d45663d76",
+        "a469b13d-cc4b-4d72-8bd6-ecc5707de009",
+        "246ce8fc-8679-4087-ad14-9110aad58f45",
+        "9bf0ed1d-8a3a-4cfd-bf6c-6ffd3d17252b"
+      ],
+      "settings": {
+        "title": "Category Heading",
+        "text_alignment": "center",
+        "padding_top": 70,
+        "padding_bottom": 80
+      }
     }
   },
   "order": [
     "image_banner",
     "featured_collection",
-    "198bace3-6626-43c3-ba03-16ecd5e3b2b7"
+    "198bace3-6626-43c3-ba03-16ecd5e3b2b7",
+    "5656aaec-973a-400d-bacb-2922d4b4ecc4"
   ]
 }
