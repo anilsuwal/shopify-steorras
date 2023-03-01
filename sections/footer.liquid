@@ -184,8 +184,7 @@
                       </label>
                       <div class="submit_btn">
                         <button type="submit" class="newsletter-form__button field__button" name="commit" id="Subscribe" aria-label="{{ 'newsletter.button_label' | t }}">
-                          {% comment %} {% render 'icon-arrow' %} {% endcomment %}
-                          {{ sections.settings.subscribe_button | escape }}
+                          {{ section.settings.subscribe_button | escape }}
                         </button>
                       </div>
                     </div>
