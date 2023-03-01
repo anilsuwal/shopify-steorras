@@ -18,8 +18,9 @@
     text-align: left;
 }
 .footer_main_section .footer-block__details-content li a {
-    font-size: calc(var(--font-heading-scale) * 1.8rem);
+    font-size: calc(var(--font-heading-scale) * 1.6rem);
     color: #fafafa;
+    text-decoration: none
 }
 .footer_main_section .submit_btn .newsletter-form__button {
 
