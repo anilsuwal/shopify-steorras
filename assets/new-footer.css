@@ -1,6 +1,9 @@
 .footer:not(.color-background-1) {
     border-top: 3rem solid #ECCAC2;
 }
+.footer__content-top {
+    padding-bottom: 8rem;
+}
 .footer__content-bottom-wrapper {
     justify-content: center;
 }
