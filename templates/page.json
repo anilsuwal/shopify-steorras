@@ -147,12 +147,10 @@
         "template--18110043554102__b9fa970c-54f0-40dc-9d9e-60fa8d2950fc-1677686573c6e5bd6f-2"
       ],
       "settings": {
-        "image_width": "third",
-        "image_ratio": "adapt",
         "column_alignment": "left",
         "background_style": "none",
         "color_scheme": "accent-1",
-        "columns_mobile": "2"
+        "columns_mobile": "1"
       }
     },
     "553589c3-b288-4be2-8a29-1ab9d3add4c8": {
