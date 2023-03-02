@@ -12,14 +12,14 @@
         id="Slider-{{ section.id }}"
         role="list"
       >
-        {%- liquid
+        {% comment %} {%- liquid
           assign highest_ratio = 0
           for block in section.blocks
             if block.settings.image.aspect_ratio > highest_ratio
               assign highest_ratio = block.settings.image.aspect_ratio
             endif
           endfor
-        -%}
+        -%} {% endcomment %}
         {%- for block in section.blocks -%}
           {%- assign empty_column = '' -%}
           {%- if block.settings.image == blank
