@@ -6,7 +6,12 @@
     column-gap: calc(var(--grid-desktop-horizontal-spacing) - var(--grid-desktop-horizontal-spacing));
     row-gap: var(--grid-desktop-vertical-spacing);
 }
-
+@media screen and (min-width: 990px){
+  .grid--3-col-desktop .grid__item {
+      width: calc(33.33% - calc(var(--grid-desktop-horizontal-spacing) - var(--grid-desktop-horizontal-spacing)) * 2 / 3);
+      max-width: calc(33.33% - calc(var(--grid-desktop-horizontal-spacing) - var(--grid-desktop-horizontal-spacing)) * 2 / 3);
+  }
+}
 {%endstyle%}
 
 <link rel="stylesheet" href="{{ 'component-slider.css' | asset_url }}" media="print" onload="this.media='all'">
