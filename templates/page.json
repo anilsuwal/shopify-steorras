@@ -148,6 +148,7 @@
       ],
       "settings": {
         "layout": "full_layout",
+        "remove_spacing": true,
         "column_alignment": "center",
         "background_style": "none",
         "color_scheme": "accent-1",
