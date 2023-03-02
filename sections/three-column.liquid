@@ -1,10 +1,20 @@
 {{ 'section-multicolumn.css' | asset_url | stylesheet_tag }}
 {{ 'component-rte.css' | asset_url | stylesheet_tag }}
+{%style%}
+.three-column-section {
+  {% assign --grid-desktop-horizontal-spacing = 0 %}
+}
+.three-column-section .grid {
+    column-gap: var(--grid-desktop-horizontal-spacing);
+    row-gap: var(--grid-desktop-vertical-spacing);
+}
+
+{%endstyle%}
 
 <link rel="stylesheet" href="{{ 'component-slider.css' | asset_url }}" media="print" onload="this.media='all'">
 <noscript>{{ 'component-slider.css' | asset_url | stylesheet_tag }}</noscript>
 
-<div class="three-colymn-section multicolumn color-{{ section.settings.color_scheme }} gradient {% if section.settings.layout == 'grid' %}page-width{% endif %}">
+<div class="three-column-section multicolumn color-{{ section.settings.color_scheme }} gradient {% if section.settings.layout == 'grid' %}page-width{% endif %}">
   <div class="section-{{ section.id }}-padding isolate">
     <div class="slider-mobile-gutter">
       <ul
