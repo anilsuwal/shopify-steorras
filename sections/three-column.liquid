@@ -1,11 +1,9 @@
 {{ 'section-multicolumn.css' | asset_url | stylesheet_tag }}
 {{ 'component-rte.css' | asset_url | stylesheet_tag }}
 {%style%}
-.three-column-section {
-  {% assign --grid-desktop-horizontal-spacing = 0 %}
-}
+
 .three-column-section .grid {
-    column-gap: var(--grid-desktop-horizontal-spacing);
+    column-gap: calc(var(--grid-desktop-horizontal-spacing) - var(--grid-desktop-horizontal-spacing));
     row-gap: var(--grid-desktop-vertical-spacing);
 }
 
