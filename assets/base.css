@@ -17,6 +17,10 @@
 .mt-0 {
   margin-top: 0;
 }
+.mx-0 {
+  margin-left: 0;
+  margin-right: 0;
+}
 .justify-between {
     justify-content: space-between;
 } 
