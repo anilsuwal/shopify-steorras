@@ -25,10 +25,10 @@
         "template--18110043357494__4493f219-44e0-482c-9ba7-7f440ab49286-16778417022b061b8f-2": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "title": "Timeless elegance crafted with care",
+            "text": "",
+            "link_label": "Shop Now",
+            "link": "#"
           }
         }
       },
