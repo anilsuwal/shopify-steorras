@@ -5,14 +5,14 @@
     padding: 6rem 0 6rem 5rem;
   }
   .image-with-bg-full .image-with-text__content a {
-    font-size: calc(var(--font-heading-scale) * 1.8rem);
+    font-size: calc(var(--font-heading-scale) * 2rem);
     font-weight: calc(100 + var(--font-body-weight));
     text-transform: uppercase;
     color: var(--plain-white);
     letter-spacing: 1.8px;
     min-height: initial;
     padding: 1.8rem 6rem;
-    border-radius: 1.2rem;
+    border-radius: 1.6rem;
     margin-top: 5rem !important;
   }
   .image-with-bg-full .image-with-text__content a:before, .image-with-bg-full .image-with-text__content a:after, .image-with-bg-full .image-with-text__content a:hover:before, .image-with-bg-full .image-with-text__content a:hover:after {
