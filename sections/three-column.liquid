@@ -7,6 +7,15 @@
     row-gap: var(--grid-desktop-vertical-spacing);
 }
 
+@media screen and (min-width: 990px){
+  .grid--3-col-desktop .grid__item {
+      width: calc(33.33% - calc(var(--grid-desktop-horizontal-spacing) - var(--grid-desktop-horizontal-spacing)) * 2 / 3);
+      max-width: calc(33.33% - calc(var(--grid-desktop-horizontal-spacing) - var(--grid-desktop-horizontal-spacing)) * 2 / 3);
+  }
+}
+{% endstyle %}
+{% style %}
+
 .three-column-section .column_box_heading {
   color: {{ block.settings.heading_title_color }};
 }
@@ -17,12 +26,7 @@
   color: {{ block.settings.button_color }}; 
   background-color: {{ block.settings.button_bg_color }};
 }
-@media screen and (min-width: 990px){
-  .grid--3-col-desktop .grid__item {
-      width: calc(33.33% - calc(var(--grid-desktop-horizontal-spacing) - var(--grid-desktop-horizontal-spacing)) * 2 / 3);
-      max-width: calc(33.33% - calc(var(--grid-desktop-horizontal-spacing) - var(--grid-desktop-horizontal-spacing)) * 2 / 3);
-  }
-}
+
 {% endstyle %}
 
 {% endif %}
