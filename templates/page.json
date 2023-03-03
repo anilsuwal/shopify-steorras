@@ -156,7 +156,7 @@
     "f2fc5b30-bcbe-4d9e-b96c-2dc20979d311": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured collection",
+        "title": "",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
