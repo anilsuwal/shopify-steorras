@@ -53,3 +53,7 @@
     letter-spacing: 1.6px;
     margin-top: 5rem;
   }
+  .three-column-section .column_box_btn:before, .three-column-section .column_box_btn:after {
+    border: 0;
+    box-shadow: none;
+  }
