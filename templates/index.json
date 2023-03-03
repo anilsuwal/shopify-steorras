@@ -16,8 +16,9 @@
         "template--18110043357494__4493f219-44e0-482c-9ba7-7f440ab49286-16778417022b061b8f-1": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/home-banner1-1.png",
+            "title": "",
+            "text": "",
             "link_label": "",
             "link": ""
           }
