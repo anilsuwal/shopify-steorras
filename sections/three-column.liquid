@@ -79,7 +79,7 @@
                 {%- endif -%}
                 {%- if block.settings.link_label != blank -%}
                   <a
-                    class="button button--primary" style="color: {{ block.settings.button_text_color }}; background-color: {{ block.settings.button_background_color }}"
+                    class="button button--primary" style="color: {{ block.settings.button_color }}; background-color: {{ block.settings.button_bg_color }}"
                     {% if block.settings.link == blank %}
                       role="link" aria-disabled="true"
                     {% else %}
