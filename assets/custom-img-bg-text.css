@@ -36,6 +36,8 @@
 
   /* Three Column Layout css */
   .three-column-section .column_box_heading {
+    font-size: calc(var(--font-heading-scale) * 3.8rem);
+    line-height: calc(1 + .2 / var(--font-body-scale));
     margin-bottom: 5rem;
   }
   .three-column-section .column_box_content p{
