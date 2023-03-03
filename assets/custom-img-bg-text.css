@@ -43,7 +43,7 @@
   }
   .three-column-section .column_box_btn {
     font-size: calc(var(--font-heading-scale) * 2rem);
-    position: initial;
+    position: relative;
     font-weight: calc(100 + var(--font-body-weight));
     width: auto;
     display: inline-block;
