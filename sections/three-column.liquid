@@ -87,6 +87,7 @@
                   </div>
                 </div>
               {%- endif -%}
+              {% if section.settings.enable_text_section %}
               <div class="multicolumn-card__info">
                 {%- if block.settings.title != blank -%}
                   <h3 class="column_box_heading">{{ block.settings.title | escape }}</h3>
@@ -107,6 +108,7 @@
                   >
                 {%- endif -%}
               </div>
+              {% endif %}
             </div>
           </li>
         {%- endfor -%}
@@ -125,6 +127,12 @@
   },
   "max_blocks": 3,
   "settings": [
+    {
+      "type": "checkbox",
+      "id": "enable_text_section",
+      "default": false,
+      "label": "Enable Text Section"
+    },
     {
       "type": "select",
       "id": "layout",
