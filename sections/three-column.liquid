@@ -1,7 +1,7 @@
 {{ 'section-multicolumn.css' | asset_url | stylesheet_tag }}
 {{ 'component-rte.css' | asset_url | stylesheet_tag }}
 {% if section.settings.remove_spacing %}
-{%style%}
+{% style %}
 .three-column-section .grid {
     column-gap: calc(var(--grid-desktop-horizontal-spacing) - var(--grid-desktop-horizontal-spacing));
     row-gap: var(--grid-desktop-vertical-spacing);
@@ -12,7 +12,7 @@
       max-width: calc(33.33% - calc(var(--grid-desktop-horizontal-spacing) - var(--grid-desktop-horizontal-spacing)) * 2 / 3);
   }
 }
-{%endstyle%}
+{% endstyle %}
 
 {% endif %}
 
@@ -72,7 +72,7 @@
               {%- endif -%}
               <div class="multicolumn-card__info">
                 {%- if block.settings.title != blank -%}
-                  <h3>{{ block.settings.title | escape }}</h3>
+                  <h3 style="color: {{ block.settings.heading_title_color }}">{{ block.settings.title | escape }}</h3>
                 {%- endif -%}
                 {%- if block.settings.text != blank -%}
                   <div class="rte">{{ block.settings.text }}</div>
@@ -231,6 +231,12 @@
           "id": "title",
           "default": "Column",
           "label": "Heading"
+        },
+        {
+          "type": "color",
+          "id": "heading_title_color",
+          "label": "Heading Color",
+          "default": "#000000"
         },
         {
           "type": "richtext",
