@@ -115,13 +115,13 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/home-banner1.png",
-            "heading_title_color": "#000000",
+            "heading_title_color": "#eccac2",
             "body_color": "#000000",
             "title": "",
             "text": "",
             "link_label": "",
             "link": "",
-            "button_color": "#ffffff",
+            "button_color": "#1878b9",
             "button_bg_color": "#334fb4"
           }
         },
