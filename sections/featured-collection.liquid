@@ -12,7 +12,7 @@
 <noscript>{{ 'component-slider.css' | asset_url | stylesheet_tag }}</noscript>
 <noscript>{{ 'template-collection.css' | asset_url | stylesheet_tag }}</noscript>
 
-{% if disable_zoom %}
+
   {%- style -%}
       ul#Slider-template--18110043357494__featured_collection .card-wrapper:hover .media.media--hover-effect>img:first-child:only-child {
           transform: scale(1);
@@ -21,7 +21,6 @@
     transition: transform var(--duration-long) ease;
 }
   {%- endstyle -%}
-{% endif %}
 
 {%- style -%}
   .section-{{ section.id }}-padding {
