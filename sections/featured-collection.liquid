@@ -12,6 +12,16 @@
 <noscript>{{ 'component-slider.css' | asset_url | stylesheet_tag }}</noscript>
 <noscript>{{ 'template-collection.css' | asset_url | stylesheet_tag }}</noscript>
 
+{% if disable_zoom == false %}
+  {%- style -%}
+    @media screen and (min-width: 990px){
+      .card-wrapper:hover .media.media--hover-effect>img:first-child:only-child {
+          transform: scale(1);
+      }
+    }
+  {%- endstyle -%}
+{% endif %}
+
 {%- style -%}
   .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
