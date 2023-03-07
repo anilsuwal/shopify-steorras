@@ -18,6 +18,9 @@
       .card-wrapper:hover .media.media--hover-effect>img:first-child:only-child {
           transform: scale(1);
       }
+      .card .media.media--hover-effect>img:only-child, .card-wrapper .media.media--hover-effect>img:only-child {
+    transition: transform var(--duration-long) ease;
+}
     }
   {%- endstyle -%}
 {% endif %}
