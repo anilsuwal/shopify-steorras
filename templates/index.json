@@ -167,7 +167,7 @@
       ],
       "settings": {
         "enable_text_section": true,
-        "layout": "grid",
+        "layout": "full_layout",
         "remove_spacing": true,
         "column_alignment": "center",
         "background_style": "none",
