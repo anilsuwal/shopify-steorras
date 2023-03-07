@@ -166,17 +166,17 @@
         "template--18110043357494__b679a7f9-504c-4841-ad83-23b4379abd2c-16778417022b061b8f-2"
       ],
       "settings": {
-        "enable_text_section": false,
+        "enable_text_section": true,
         "layout": "grid",
-        "remove_spacing": false,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "text_center_alignment": false,
-        "color_scheme": "background-1",
-        "heading_title_color": "#000000",
-        "body_color": "#000000",
-        "button_color": "#000000",
-        "button_bg_color": "#000000",
+        "remove_spacing": true,
+        "column_alignment": "center",
+        "background_style": "none",
+        "text_center_alignment": true,
+        "color_scheme": "accent-1",
+        "heading_title_color": "#545454",
+        "body_color": "#767576",
+        "button_color": "#ffffff",
+        "button_bg_color": "#767576",
         "columns_mobile": "1"
       }
     },
