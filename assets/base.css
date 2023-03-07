@@ -17,6 +17,10 @@
 .mt-0 {
   margin-top: 0;
 }
+.mx-0 {
+  margin-left: 0;
+  margin-right: 0;
+}
 .justify-between {
     justify-content: space-between;
 } 
@@ -2526,10 +2530,10 @@ menu-drawer + .header__search {
     display: inline-flex;
   }
 
-  .header:not(.header--top-center) > .header__search,
+  /* .header:not(.header--top-center) > .header__search,
   .header--top-center * > .header__search {
     display: none;
-  }
+  } */
 }
 
 .no-js .predictive-search {

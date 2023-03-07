@@ -5,14 +5,14 @@
     padding: 6rem 0 6rem 5rem;
   }
   .image-with-bg-full .image-with-text__content a {
-    font-size: calc(var(--font-heading-scale) * 1.8rem);
+    font-size: calc(var(--font-heading-scale) * 2rem);
     font-weight: calc(100 + var(--font-body-weight));
     text-transform: uppercase;
     color: var(--plain-white);
     letter-spacing: 1.8px;
     min-height: initial;
     padding: 1.8rem 6rem;
-    border-radius: 1.2rem;
+    border-radius: 1.6rem;
     margin-top: 5rem !important;
   }
   .image-with-bg-full .image-with-text__content a:before, .image-with-bg-full .image-with-text__content a:after, .image-with-bg-full .image-with-text__content a:hover:before, .image-with-bg-full .image-with-text__content a:hover:after {
@@ -21,7 +21,6 @@
   }
   .image-with-bg-full .image-with-text__heading {
     font-size: calc(var(--font-heading-scale) * 3.8rem);
-    font-size: calc(var(--font-heading-scale) * 4rem);
     line-height: calc(1 + 0.2 / var(--font-body-scale));
     color: var(--gray);
     margin-bottom: 3rem;
@@ -33,4 +32,30 @@
   }
   .image-with-bg-full .image-with-text__text p {
     margin-bottom: 2rem;
+  }
+
+  /* Three Column Layout css */
+  .three-column-section .column_box_heading {
+    font-size: calc(var(--font-heading-scale) * 3.8rem);
+    line-height: calc(1 + .2 / var(--font-body-scale));
+    margin-bottom: 5rem;
+  }
+  .three-column-section .column_box_content p{
+    line-height: calc(1 + 0.6 / var(--font-body-scale));
+  }
+  .three-column-section .column_box_btn {
+    font-size: calc(var(--font-heading-scale) * 2rem);
+    position: relative;
+    font-weight: calc(100 + var(--font-body-weight));
+    width: auto;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 1.5rem 5rem;
+    border-radius: 0.8rem;
+    letter-spacing: 1.6px;
+    margin-top: 5rem;
+  }
+  .three-column-section .column_box_btn:before, .three-column-section .column_box_btn:after, .three-column-section .column_box_btn:hover:before, .three-column-section .column_box_btn:hover:after {
+    border: 0;
+    box-shadow: none;
   }
