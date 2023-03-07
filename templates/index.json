@@ -133,8 +133,9 @@
         "template--18110043357494__b679a7f9-504c-4841-ad83-23b4379abd2c-16778417022b061b8f-0": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/Slice_2.png",
+            "title": "",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -142,8 +143,9 @@
         "template--18110043357494__b679a7f9-504c-4841-ad83-23b4379abd2c-16778417022b061b8f-1": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/Slice_2_1.png",
+            "title": "",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -151,10 +153,10 @@
         "template--18110043357494__b679a7f9-504c-4841-ad83-23b4379abd2c-16778417022b061b8f-2": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "title": "Celebrate life's milestones with timeless 14k gold pendants",
+            "text": "<p>In today's market, it can be difficult to find high-quality jewelry without spending a fortune. At Steorras, we believe that quality fine jewelry should be accessible to everyone. That's why we offer competitive prices without compromising on quality or design. Our goal is to make online jewelry shopping an enjoyable experience for everyone. Shop with us today and see the difference!<\/p>",
+            "link_label": "Shop Now",
+            "link": "#"
           }
         }
       },
