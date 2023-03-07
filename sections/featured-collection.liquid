@@ -85,7 +85,8 @@
               show_vendor: section.settings.show_vendor,
               show_rating: section.settings.show_rating,
               show_quick_add: section.settings.enable_quick_add,
-              section_id: section.id
+              section_id: section.id,
+              remove_card_content: section.settings.remove_card_content
             %}
           </li>
         {%- else -%}
@@ -344,6 +345,18 @@
       "id": "enable_quick_add",
       "default": false,
       "label": "t:sections.featured-collection.settings.enable_quick_buy.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "disable_zoom",
+      "default": false,
+      "label": "Disable zoom on hover"
+    },
+    {
+      "type": "checkbox",
+      "id": "remove_card_content",
+      "default": false,
+      "label": "Remove Card Content"
     },
     {
       "type": "header",
