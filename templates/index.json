@@ -84,7 +84,7 @@
     "59d566fd-1d65-4ff6-89da-5784dc7bf774": {
       "type": "custom-collection",
       "settings": {
-        "title": "Featured collection",
+        "title": "",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
@@ -102,12 +102,12 @@
         "show_vendor": false,
         "show_rating": false,
         "enable_quick_add": false,
-        "disable_zoom": false,
-        "remove_card_content": false,
+        "disable_zoom": true,
+        "remove_card_content": true,
         "columns_mobile": "2",
         "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "198bace3-6626-43c3-ba03-16ecd5e3b2b7": {
