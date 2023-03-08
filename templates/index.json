@@ -102,7 +102,7 @@
         "show_vendor": false,
         "show_rating": false,
         "enable_quick_add": false,
-        "disable_zoom": true,
+        "disable_zoom": false,
         "remove_card_content": true,
         "columns_mobile": "2",
         "swipe_on_mobile": false,
