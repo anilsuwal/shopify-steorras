@@ -76,6 +76,9 @@
                   >
               </a>
             <div class="card-information">
+                {%- if card_product.title -%}
+                    <h4>{{ card_product.title | escape }}</h4>
+                {%- endif -%}
               {%- if show_vendor -%}
                 <span class="visually-hidden">{{ 'accessibility.vendor' | t }}</span>
                 <div class="caption-with-letter-spacing light">{{ card_product.vendor }}</div>
