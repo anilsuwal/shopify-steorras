@@ -106,6 +106,7 @@
           </div>
         {%- endif -%}
         <div class="card__content">
+            {%- if remove_card_content -%}
           <div class="card__information">
             <h3
               class="card__heading"
@@ -123,6 +124,7 @@
               </a>
             </h3>
           </div>
+          {%-endif-%}
           <div class="card__badge {{ settings.badge_position }}">
             {%- if card_product.available == false -%}
               <span
