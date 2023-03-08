@@ -30,6 +30,12 @@
 .no-wrap {
     flex-wrap: nowrap !important;
 }
+.opacity-0 {
+  opacity: 0;
+}
+.opacity-1 {
+  opacity: 1;
+}
 
 /* Color custom properties */
 
