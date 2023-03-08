@@ -22,8 +22,8 @@
   margin-right: 0;
 }
 .py-0 {
-  padding-top: 0;
-  padding-bottom: 0;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
 }
 .h-0 {
   height: 0;
