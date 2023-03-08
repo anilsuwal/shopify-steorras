@@ -45,7 +45,7 @@
       "
       style="--ratio-percent: {{ 1 | divided_by: ratio | times: 100 }}%;"
     >
-      {% if remove_card_content == false %}
+      
         <div class="card__content">
           <div class="card__information">
               <a
@@ -75,6 +75,7 @@
                     height="{{ card_product.featured_media.height }}"
                   >
               </a>
+              {% if remove_card_content == false %}
             <div class="card-information">
                 {%- if card_product.title -%}
                     <h4>{{ card_product.title | escape }}</h4>
@@ -124,6 +125,7 @@
 
               {% render 'price', product: card_product, price_class: '' %}
             </div>
+            {%-endif-%}
           </div>
           {%- if show_quick_add -%}
             <div class="quick-add no-js-hidden">
@@ -257,7 +259,6 @@
             {%- endif -%}
           </div>
         </div>
-      {% endif %}
     </div>
   </div>
 {%- else -%}
