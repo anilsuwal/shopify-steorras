@@ -74,7 +74,6 @@
                 width="{{ card_product.featured_media.width }}"
                 height="{{ card_product.featured_media.height }}"
               >
-              </a>
               {% comment %}theme-check-enable ImgLazyLoading{% endcomment %}
 
               {%- if card_product.media[1] != null and show_secondary_image -%}
@@ -97,6 +96,8 @@
                   height="{{ card_product.media[1].height }}"
                 >
               {%- endif -%}
+
+            </a>
             </div>
           </div>
         {%- endif -%}
