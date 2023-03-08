@@ -25,6 +25,14 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+  @media screen and (min-width: 990px) {
+    .disable_on_zoom .card-wrapper:hover .media.media--hover-effect>img:first-child:only-child {
+      transform: scale(1);
+    }
+    .disable_on_zoom .card-wrapper .media.media--hover-effect>img:only-child {
+      transition: transform var(--duration-long) ease;
+    }
+  }
 {%- endstyle -%}
 
 {%- liquid
@@ -70,7 +78,7 @@
     <slider-component class="slider-mobile-gutter{% if section.settings.full_width %} slider-component-full-width{% endif %}{% if show_mobile_slider == false %} page-width{% endif %}{% if show_desktop_slider == false and section.settings.full_width == false %} page-width-desktop{% endif %}{% if show_desktop_slider %} slider-component-desktop{% endif %}">
       <ul
         id="Slider-{{ section.id }}"
-        class="grid product-grid contains-card contains-card--product{% if settings.card_style == 'standard' %} contains-card--standard{% endif %} grid--{{ section.settings.columns_desktop }}-col-desktop{% if section.settings.collection == blank %} grid--2-col-tablet-down{% else %} grid--{{ section.settings.columns_mobile }}-col-tablet-down{% endif %}{% if show_mobile_slider or show_desktop_slider %} slider{% if show_desktop_slider %} slider--desktop{% endif %}{% if show_mobile_slider %} slider--tablet grid--peek{% endif %}{% endif %}"
+        class="grid product-grid contains-card contains-card--product{% if settings.card_style == 'standard' %} contains-card--standard{% endif %} grid--{{ section.settings.columns_desktop }}-col-desktop{% if section.settings.collection == blank %} grid--2-col-tablet-down{% else %} grid--{{ section.settings.columns_mobile }}-col-tablet-down{% endif %}{% if show_mobile_slider or show_desktop_slider %} slider{% if show_desktop_slider %} slider--desktop{% endif %}{% if show_mobile_slider %} slider--tablet grid--peek{% endif %}{% endif %} {% if section.settings.disable_zoom %}disable_on_zoom {%endif%}"
         role="list"
         aria-label="{{ 'general.slider.name' | t }}"
       >
@@ -79,7 +87,7 @@
             id="Slide-{{ section.id }}-{{ forloop.index }}"
             class="grid__item{% if show_mobile_slider or show_desktop_slider %} slider__slide{% endif %}"
           >
-            {% render 'card-product',
+            {% render 'custom-card-product',
               card_product: product,
               media_aspect_ratio: section.settings.image_ratio,
               show_secondary_image: section.settings.show_secondary_image,
@@ -87,12 +95,13 @@
               show_rating: section.settings.show_rating,
               show_quick_add: section.settings.enable_quick_add,
               section_id: section.id,
+              remove_card_content: section.settings.remove_card_content
             %}
           </li>
         {%- else -%}
           {%- for i in (1..4) -%}
             <li class="grid__item">
-              {% render 'card-product', show_vendor: section.settings.show_vendor %}
+              {% render 'custom-card-product', show_vendor: section.settings.show_vendor %}
             </li>
           {%- endfor -%}
         {%- endfor -%}
@@ -143,7 +152,7 @@
 
 {% schema %}
 {
-  "name": "t:sections.featured-collection.name",
+  "name": "Custom Collection",
   "tag": "section",
   "class": "section",
   "disabled_on": {
@@ -347,6 +356,18 @@
       "label": "t:sections.featured-collection.settings.enable_quick_buy.label"
     },
     {
+      "type": "checkbox",
+      "id": "disable_zoom",
+      "default": false,
+      "label": "Disable zoom on hover"
+    },
+    {
+      "type": "checkbox",
+      "id": "remove_card_content",
+      "default": false,
+      "label": "Remove Card Content"
+    },
+    {
       "type": "header",
       "content": "t:sections.featured-collection.settings.header_mobile.content"
     },
@@ -399,7 +420,7 @@
   ],
   "presets": [
     {
-      "name": "t:sections.featured-collection.presets.name"
+      "name": "Custom Collection"
     }
   ]
 }
