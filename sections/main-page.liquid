@@ -20,8 +20,8 @@
     }
   }
 {%- endstyle -%}
-
-<div class="page-width page-width--narrow section-{{ section.id }}-padding innerpage-title-section">
+<div class="section-{{ section.id }}-padding innerpage-title-section">
+<div class="page-width page-width--narrow ">
   <h1 class="main-page-title innerpage-title page-title h0 {{ section.settings.text_alignment }}">
     {% if section.settings.custom_page_title == blank %}
       {{ page.title | escape }}
@@ -32,6 +32,7 @@
   <div class="rte">
     {{ page.content }}
   </div>
+</div>
 </div>
 
 {% schema %}
