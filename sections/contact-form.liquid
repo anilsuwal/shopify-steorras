@@ -17,14 +17,14 @@
 <div class="color-{{ section.settings.color_scheme }} gradient">
   <div class="contact page-width page-width--narrow section-{{ section.id }}-padding">
     {%- if section.settings.heading != blank -%}
-      <h2 class="title title-wrapper--no-top-margin {{ section.settings.heading_size }}">
+      <h2 class="title title-wrapper--no-top-margin {{ section.settings.heading_size }} {{ section.settings.text_alignment }}">
         {{ section.settings.heading | escape }}
       </h2>
     {%- else -%}
-      <h2 class="visually-hidden">{{ 'templates.contact.form.title' | t }}</h2>
+      <h2 class="visually-hidden {{ section.settings.text_alignment }}">{{ 'templates.contact.form.title' | t }}</h2>
     {%- endif -%}
     {%- if section.settings.content != blank -%}
-      <div class="contact__content">
+      <div class="contact__content {{ section.settings.text_alignment }}">
         {{ section.settings.contact_content }}
       </div>
     {%- endif -%}
@@ -151,6 +151,24 @@
       "type" : "richtext",
       "id" : "contact_content",
       "label" : "Content"
+    },
+    {
+      "type": "select",
+      "id": "text_alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        }, {
+          "value": "center",
+          "label": "Center"
+        }, {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "center",
+      "label": "Text alignment"
     },
     {
       "type": "select",
