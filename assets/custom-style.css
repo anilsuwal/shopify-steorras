@@ -8,7 +8,14 @@
     padding: 1.8rem 6rem;
     border-radius: 1.6rem;
   }
-  .page-Contact-template .contact__button .button:before, .page-Contact-template .contact__button .button:after, .page-Contact-template .contact__button .button:hover:before, .page-Contact-template .contact__button .button:hover:after {
+  .page-Contact-template .contact__button .button:before, 
+  .page-Contact-template .contact__button .button:after, 
+  .page-Contact-template .contact__button .button:hover:before, 
+  .page-Contact-template .contact__button .button:hover:after, 
+  .page-Contact-template .contact #ContactForm .field:before, 
+  .page-Contact-template .contact #ContactForm .field:after, 
+  .page-Contact-template .contact #ContactForm .field:hover:before, 
+  .page-Contact-template .contact #ContactForm .field:hover:after {
     border: 0;
     box-shadow: none;
   }
