@@ -66,4 +66,7 @@
       letter-spacing: 1px;
       margin: 0 2.4rem;
     }
+    .innerpage-title-section {
+      border-bottom: 2rem solid #eccac2;
+    }
   }
