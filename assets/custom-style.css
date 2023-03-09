@@ -7,7 +7,6 @@
     min-height: initial;
     padding: 1.8rem 6rem;
     border-radius: 1.6rem;
-    margin-top: 5rem !important;
   }
   .page-Contact-template .contact__button .button:before, .page-Contact-template .contact__button .button:after, .page-Contact-template .contact__button .button:hover:before, .page-Contact-template .contact__button .button:hover:after {
     border: 0;
