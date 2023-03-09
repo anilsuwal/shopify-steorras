@@ -1,0 +1,11 @@
+.page-Contact-template .contact__button .button {
+    font-size: calc(var(--font-heading-scale) * 2rem);
+    font-weight: calc(100 + var(--font-body-weight));
+    text-transform: uppercase;
+    color: var(--plain-white);
+    letter-spacing: 1.8px;
+    min-height: initial;
+    padding: 1.8rem 6rem;
+    border-radius: 1.6rem;
+    margin-top: 5rem !important;
+  }
