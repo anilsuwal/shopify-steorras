@@ -3,16 +3,59 @@
     "main": {
       "type": "main-page",
       "settings": {
-        "background_color": "#F4E8E0",
+        "background_color": "#f4e8e0",
         "custom_page_title": "About Steorras",
         "text_alignment": "center",
         "padding_top": 48,
         "padding_bottom": 8
       }
+    },
+    "9c00cfeb-e222-4fd8-8d07-bbf4448fa6cc": {
+      "type": "custom-img-bg-text",
+      "blocks": {
+        "template--18275819520310__9c00cfeb-e222-4fd8-8d07-bbf4448fa6cc-1678388307479b656e-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "template--18275819520310__9c00cfeb-e222-4fd8-8d07-bbf4448fa6cc-1678388307479b656e-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--18275819520310__9c00cfeb-e222-4fd8-8d07-bbf4448fa6cc-1678388307479b656e-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18275819520310__9c00cfeb-e222-4fd8-8d07-bbf4448fa6cc-1678388307479b656e-0",
+        "template--18275819520310__9c00cfeb-e222-4fd8-8d07-bbf4448fa6cc-1678388307479b656e-1",
+        "template--18275819520310__9c00cfeb-e222-4fd8-8d07-bbf4448fa6cc-1678388307479b656e-2"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "9c00cfeb-e222-4fd8-8d07-bbf4448fa6cc"
   ]
 }
-
