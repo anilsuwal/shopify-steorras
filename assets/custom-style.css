@@ -1,5 +1,8 @@
 /* Contact Page Style */
 
+.page-Contact-template .contact__button {
+  margin-top: 3rem;
+}
 .page-Contact-template .contact__button .button {
     font-size: calc(var(--font-heading-scale) * 2rem);
     font-weight: calc(100 + var(--font-body-weight));
