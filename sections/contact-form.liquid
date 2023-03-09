@@ -23,11 +23,11 @@
     {%- else -%}
       <h2 class="visually-hidden">{{ 'templates.contact.form.title' | t }}</h2>
     {%- endif -%}
-    {% if section.settings.content != blank %}
+    {%- if section.settings.content != blank -%}
       <div class="contact__content">
         {{ section.settings.contact_content }}
       </div>
-    {% endif %}
+    {%- endif -%}
     {%- form 'contact', id: 'ContactForm', class: 'isolate' -%}
       {%- if form.posted_successfully? -%}
         <h2 class="form-status form-status-list form__message" tabindex="-1" autofocus>
