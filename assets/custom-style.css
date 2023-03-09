@@ -56,3 +56,11 @@
   .page-Contact-template .contact #ContactForm .field .text-area {
     min-height: 20rem;
   }
+
+  @media screen and (max-width: 1199px){
+    .main_navigation_section .header__menu-item {
+      font-size: calc(var(--font-heading-scale) * 1.7rem);
+      letter-spacing: 1px;
+      margin: 0 2.4rem;
+    }
+  }
