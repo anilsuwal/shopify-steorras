@@ -20,6 +20,7 @@
   .page-Contact-template .contact  .contact__content p {
     font-size: calc(var(--font-heading-scale) * 2rem);
     color: var(--boulder);
+    margin: 0 0 7rem;
   }
   .page-Contact-template .contact #ContactForm {
     max-width: 68rem;
