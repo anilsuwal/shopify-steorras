@@ -30,7 +30,7 @@
     color: var(--boulder);
     border: 1px solid var(--silver);
   }
-  .page-Contact-template .contact #ContactForm .field .field__input:focus .field__label {
+  .page-Contact-template .contact #ContactForm .field .field__input:focus ~ .field__label {
     font-size: calc(var(--font-heading-scale) * 1rem);
   }
   .page-Contact-template .contact #ContactForm .field .field__label {
