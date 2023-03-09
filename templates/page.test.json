@@ -1,0 +1,191 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "435959ec-bb5d-424e-aa9c-b0d180c8bf08": {
+      "type": "custom-img-bg-text",
+      "disabled": true,
+      "blocks": {
+        "template--18110043554102__435959ec-bb5d-424e-aa9c-b0d180c8bf08-1677674862bf7f401a-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Fine jewelry that you'll treasure for a lifetime  ",
+            "heading_size": "h1"
+          }
+        },
+        "template--18110043554102__435959ec-bb5d-424e-aa9c-b0d180c8bf08-1677674862bf7f401a-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Thank you for choosing Steorras as your preferred online jewelry store.   <\/p><p><\/p><p>We're dedicated to providing the best online jewelry shopping experience possible, from our user-friendly website to our outstanding customer service. If you have any questions or need assistance with your purchase, our customer service team is always happy to help. <\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--18110043554102__435959ec-bb5d-424e-aa9c-b0d180c8bf08-1677674862bf7f401a-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop now",
+            "button_link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "template--18110043554102__435959ec-bb5d-424e-aa9c-b0d180c8bf08-1677674862bf7f401a-0",
+        "template--18110043554102__435959ec-bb5d-424e-aa9c-b0d180c8bf08-1677674862bf7f401a-1",
+        "template--18110043554102__435959ec-bb5d-424e-aa9c-b0d180c8bf08-1677674862bf7f401a-2"
+      ],
+      "settings": {
+        "background_image": "shopify:\/\/shop_images\/420ED4FA-60D4-4212-9F53-2AC2308A16C3.png",
+        "image": "shopify:\/\/shop_images\/420ED4FA-60D4-4212-9F53-2AC2308A16C3.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "b9fa970c-54f0-40dc-9d9e-60fa8d2950fc": {
+      "type": "three-column",
+      "disabled": true,
+      "blocks": {
+        "template--18110043554102__b9fa970c-54f0-40dc-9d9e-60fa8d2950fc-1677686573c6e5bd6f-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/home-banner1.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--18110043554102__b9fa970c-54f0-40dc-9d9e-60fa8d2950fc-1677686573c6e5bd6f-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/home-banner1-1.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--18110043554102__b9fa970c-54f0-40dc-9d9e-60fa8d2950fc-1677686573c6e5bd6f-2": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "Shop Now",
+            "link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "template--18110043554102__b9fa970c-54f0-40dc-9d9e-60fa8d2950fc-1677686573c6e5bd6f-0",
+        "template--18110043554102__b9fa970c-54f0-40dc-9d9e-60fa8d2950fc-1677686573c6e5bd6f-1",
+        "template--18110043554102__b9fa970c-54f0-40dc-9d9e-60fa8d2950fc-1677686573c6e5bd6f-2"
+      ],
+      "settings": {
+        "layout": "full_layout",
+        "remove_spacing": true,
+        "column_alignment": "center",
+        "background_style": "none",
+        "text_center_alignment": true,
+        "color_scheme": "accent-1",
+        "heading_title_color": "#545454",
+        "body_color": "#767576",
+        "button_color": "#ffffff",
+        "button_bg_color": "#767576",
+        "columns_mobile": "1"
+      }
+    },
+    "76e8137d-e750-46e1-a014-5f390e27647a": {
+      "type": "collection-list",
+      "blocks": {
+        "template--18110043554102__76e8137d-e750-46e1-a014-5f390e27647a-1677841041759198f2-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "template--18110043554102__76e8137d-e750-46e1-a014-5f390e27647a-1677841041759198f2-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "template--18110043554102__76e8137d-e750-46e1-a014-5f390e27647a-1677841041759198f2-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "8506b46a-354b-487e-ae99-3d5b96fc4415": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "necklaces-pendants"
+          }
+        }
+      },
+      "block_order": [
+        "template--18110043554102__76e8137d-e750-46e1-a014-5f390e27647a-1677841041759198f2-0",
+        "template--18110043554102__76e8137d-e750-46e1-a014-5f390e27647a-1677841041759198f2-1",
+        "template--18110043554102__76e8137d-e750-46e1-a014-5f390e27647a-1677841041759198f2-2",
+        "8506b46a-354b-487e-ae99-3d5b96fc4415"
+      ],
+      "settings": {
+        "title": "Collections",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "f2fc5b30-bcbe-4d9e-b96c-2dc20979d311": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": true,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "435959ec-bb5d-424e-aa9c-b0d180c8bf08",
+    "b9fa970c-54f0-40dc-9d9e-60fa8d2950fc",
+    "76e8137d-e750-46e1-a014-5f390e27647a",
+    "f2fc5b30-bcbe-4d9e-b96c-2dc20979d311"
+  ]
+}
