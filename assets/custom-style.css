@@ -21,3 +21,6 @@
     font-size: calc(var(--font-heading-scale) * 2rem);
     color: var(--boulder);
   }
+  .page-Contact-template .contact #ContactForm {
+    max-width: 71rem;
+  }
