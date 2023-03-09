@@ -23,7 +23,7 @@
     {%- else -%}
       <h2 class="visually-hidden {{ section.settings.text_alignment }}">{{ 'templates.contact.form.title' | t }}</h2>
     {%- endif -%}
-    {%- if section.settings.content != blank -%}
+    {%- if section.settings.contact_content != blank -%}
       <div class="contact__content {{ section.settings.text_alignment }}">
         {{ section.settings.contact_content }}
       </div>
