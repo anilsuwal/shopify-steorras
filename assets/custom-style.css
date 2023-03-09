@@ -36,5 +36,6 @@
   .page-Contact-template .contact #ContactForm .field .field__label {
     font-size: calc(var(--font-heading-scale) * 1.8rem);
     font-weight: calc(100 + var(--font-body-weight));
-    text-transform: uppercase
+    text-transform: uppercase;
+    letter-spacing: normal;
   }
