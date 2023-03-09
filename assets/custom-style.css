@@ -46,3 +46,6 @@
     text-transform: uppercase;
     letter-spacing: normal;
   }
+  .page-Contact-template .contact #ContactForm .field .text-area {
+    min-height: 20rem;
+  }
