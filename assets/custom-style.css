@@ -36,6 +36,7 @@
   .page-Contact-template .contact #ContactForm .field .field__input {
     color: var(--boulder);
     border: 1px solid var(--silver);
+    height: 4.9rem;
   }
   .page-Contact-template .contact #ContactForm .field .field__input:focus ~ .field__label {
     font-size: calc(var(--font-heading-scale) * 1rem);
