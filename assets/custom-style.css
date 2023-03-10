@@ -57,6 +57,11 @@
     min-height: 20rem;
   }
 
+  /* About Page Template */
+  .About-page-template {
+    position: relative;
+  }
+
   @media screen and (max-width: 1199px){
     .main_navigation_section .list-menu--inline {
       margin-top: 1.9rem;
