@@ -57,6 +57,32 @@
     min-height: 20rem;
   }
 
+  /* About Page Template */
+  .About-page-template {
+    position: relative;
+  }
+  .About-page-template  .image-with-text__media {
+    border-radius: 2rem;
+    margin-right: 4rem;
+  }
+  .About-page-template .image-with-text__media img {
+    position: relative !important;
+  }
+  .About-page-template .image-with-text__heading {
+    font-size: calc(var(--font-heading-scale) * 3.8rem);
+    line-height: calc(1 + 0.2 / var(--font-body-scale));
+    color: var(--gray);
+  }
+  .About-page-template .image-with-text__text p {
+    font-size: calc(var(--font-heading-scale) * 1.8rem);
+    color: var(--boulder);
+  }
+
+  /* Custom Collection Page Style */
+  .custom-collection-section .grid{
+    --grid-desktop-horizontal-spacing: 15px;
+  }
+
   @media screen and (max-width: 1199px){
     .main_navigation_section .list-menu--inline {
       margin-top: 1.9rem;
