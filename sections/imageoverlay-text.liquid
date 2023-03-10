@@ -37,7 +37,7 @@
     <div class="image-with-text__media-item image-with-text__media-item--medium image-with-text__media-item--{{ section.settings.desktop_content_position }} grid__item">
       <div
         class="image-with-text__media image-with-text__media--adapt gradient color-{{ section.settings.color_scheme }} global-media-settings {% if section.settings.image != blank %}media{% else %}image-with-text__media--placeholder placeholder{% endif %}">
-        <img src="{{section.settings.image | img_url: '590x' }}" alt="{{block.settings.image.alt}}" />
+        <img src="{{section.settings.image | img_url: '590x590' }}" alt="{{block.settings.image.alt}}" />
       </div>
     </div>
     <div class="image-with-text__text-item grid__item">
