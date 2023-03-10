@@ -82,6 +82,13 @@
   .custom-collection-section .grid{
     --grid-desktop-horizontal-spacing: 15px;
   }
+  .badge .custom-popular_sale-badge {
+    border: none;
+    border-radius: 0;
+    text-transform: uppercase;
+    color: var(--plain-white);
+    background: var(--tonys-pink);
+  }
 
   @media screen and (max-width: 1199px){
     .main_navigation_section .list-menu--inline {
