@@ -35,7 +35,7 @@
   }
 {%- endstyle -%}
 
-{%- liquid
+{% comment %} {%- liquid
   assign products_to_display = section.settings.collection.all_products_count
   if section.settings.collection.all_products_count > section.settings.products_to_show
     assign products_to_display = section.settings.products_to_show
@@ -47,7 +47,7 @@
   if section.settings.swipe_on_mobile and products_to_display > columns_mobile_int
     assign show_mobile_slider = true
   endif
-  -%}
+  -%} {% endcomment %}
   {% comment %} assign show_desktop_slider = false
   if section.settings.enable_desktop_slider and products_to_display > section.settings.columns_desktop
     assign show_desktop_slider = true
