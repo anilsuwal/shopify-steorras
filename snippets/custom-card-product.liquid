@@ -33,13 +33,6 @@
     endif
   -%}
 
-  {% assign tags = card_product.tags %}
-  {% for tag in tags %}
-    {% if tag contains 'Popular' or tag contains 'On Sale' %}
-      <h4 class="custom-badge">{{ tag }}</h4>
-      {% break %}
-    {% endif %}
-  {% endfor %}
   
   <div class="card-wrapper product-card-wrapper underline-links-hover">
     <div
@@ -60,6 +53,13 @@
       >
         {%- if card_product.featured_media -%}
           <div class="card__media">
+            {% assign tags = card_product.tags %}
+              {% for tag in tags %}
+                {% if tag contains 'Popular' or tag contains 'On Sale' %}
+                  <h4 class="custom-badge">{{ tag }}</h4>
+                  {% break %}
+                {% endif %}
+              {% endfor %}
             <div class="media media--transparent media--hover-effect">
               {% comment %}theme-check-disable ImgLazyLoading{% endcomment %}
               <a
