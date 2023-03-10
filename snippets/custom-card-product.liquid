@@ -33,10 +33,10 @@
     endif
   -%}
 
-  {% assign tags = card_product.tags | join: ' , ' %}
+  {% assign tags = card_product.tags | split: ',' %}
   {% for tag in tags %}
-    {% if tag contains 'Popular' %}
-      <h4 class="custom-badge">{{ tag }}</h4>
+    {% if tag contains 'Popular' or 'Chains' %}
+      <h4 class="custom-badge">{{ tag | escape }}</h4>
     {% endif %}
   {% endfor %}
   
