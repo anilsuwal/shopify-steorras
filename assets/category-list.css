@@ -20,7 +20,7 @@
     text-decoration: none;
 }
 .category-list.grid {
-    --grid-desktop-horizontal-spacing: 25px;
+    --grid-desktop-horizontal-spacing: 20px;
 }
 
 @media screen and (min-width: 750px){
