@@ -38,7 +38,7 @@
   {%- endif -%} {% endcomment %}
   {% for tag in card_product.tags %}
     {% if card_product.tags contains 'popular'  %} 
-         Extra in-Cart Discount
+    <h4>{{ card_product.tags }}</h4>
          {% break %}
       {% endif %}
 {% endfor %}
