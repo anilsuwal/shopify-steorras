@@ -32,6 +32,15 @@
       assign ratio = 1
     endif
   -%}
+
+  {% assign tags = card_product.tags %}
+  {% for tag in tags %}
+    {% if tag contains 'Popular' or tag contains 'On Sale' %}
+      <h4 class="custom-badge">{{ tag }}</h4>
+      {% break %}
+    {% endif %}
+  {% endfor %}
+  
   <div class="card-wrapper product-card-wrapper underline-links-hover">
     <div
       class="
