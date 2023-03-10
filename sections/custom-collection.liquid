@@ -58,8 +58,8 @@
         aria-label="{{ 'general.slider.name' | t }}"
       >
         {%- for product in section.settings.product_listing limit: 4 -%}
-          {% if product contains 'popular' %} 
-          
+          {% if product.tags contains 'popular' %} 
+            
           {% endif %}
           <li
             id="Slide-{{ section.id }}-{{ forloop.index }}"
