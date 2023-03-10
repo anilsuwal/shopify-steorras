@@ -82,7 +82,7 @@
   .custom-collection-section .grid{
     --grid-desktop-horizontal-spacing: 15px;
   }
-  .badge .custom-popular_sale-badge {
+  .badge.custom-popular_sale-badge {
     border: none;
     border-radius: 0;
     text-transform: uppercase;
