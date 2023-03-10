@@ -38,7 +38,7 @@
   {%- endif -%} {% endcomment %}
   {% assign tags = card_product.tags | split: ',' %}
   {% for tag in tags %}
-    <h4 class="custom-badge">{{ tag }}</h4>
+    {% comment %} <h4 class="custom-badge">{{ tag }}</h4> {% endcomment %}
     {% if tag contains 'Pop' %}
       <h4 class="custom-badge">{{ tag }}</h4>
     {% endif %}
