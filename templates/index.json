@@ -135,7 +135,7 @@
         ],
         "products_to_show": 4,
         "columns_desktop": 4,
-        "full_width": false,
+        "full_width": true,
         "color_scheme": "background-1",
         "image_ratio": "adapt",
         "show_secondary_image": false,
@@ -203,6 +203,32 @@
         "columns_mobile": "1"
       }
     },
+    "f7d6ebb2-5bbd-43ec-87aa-4cff5948e650": {
+      "type": "custom-collection",
+      "settings": {
+        "product_listing": [
+          "heart-pendent",
+          "orchid-stud-earrings",
+          "selene-necklace",
+          "heart-necklace"
+        ],
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": true,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "disable_zoom": true,
+        "remove_card_content": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "5656aaec-973a-400d-bacb-2922d4b4ecc4": {
       "type": "steorras-category",
       "blocks": {
@@ -251,32 +277,6 @@
         "padding_top": 70,
         "padding_bottom": 80
       }
-    },
-    "f7d6ebb2-5bbd-43ec-87aa-4cff5948e650": {
-      "type": "custom-collection",
-      "settings": {
-        "product_listing": [
-          "heart-pendent",
-          "orchid-stud-earrings",
-          "selene-necklace",
-          "heart-necklace"
-        ],
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "full_width": true,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "disable_zoom": true,
-        "remove_card_content": true,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -285,7 +285,7 @@
     "198bace3-6626-43c3-ba03-16ecd5e3b2b7",
     "233fd612-b57f-4738-94c7-a9efb0d7bbd8",
     "b679a7f9-504c-4841-ad83-23b4379abd2c",
-    "5656aaec-973a-400d-bacb-2922d4b4ecc4",
-    "f7d6ebb2-5bbd-43ec-87aa-4cff5948e650"
+    "f7d6ebb2-5bbd-43ec-87aa-4cff5948e650",
+    "5656aaec-973a-400d-bacb-2922d4b4ecc4"
   ]
 }
