@@ -72,10 +72,9 @@
     font-size: calc(var(--font-heading-scale) * 3.8rem);
     line-height: calc(1 + 0.2 / var(--font-body-scale));
     color: var(--gray);
-    margin-bottom: 2rem;
   }
   .About-page-template .image-with-text__text p {
-    font-size: calc(var(--font-heading-scale) * 2rem);
+    font-size: calc(var(--font-heading-scale) * 1.8rem);
     color: var(--boulder);
   }
 
