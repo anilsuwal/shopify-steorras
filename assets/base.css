@@ -6,9 +6,11 @@
 :root {
   --plain-white: #ffffff;
   --alabaster: #fafafa;
-  --plain-black: #ffffff;
+  --plain-black: #000000;
 
   --tundora: #4B4B4B;
+
+  --tonys-pink: #E59686;
 
   --gray: #333333;
   --boulder: #747474;
