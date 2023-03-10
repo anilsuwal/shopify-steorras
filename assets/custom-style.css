@@ -61,6 +61,16 @@
   .About-page-template {
     position: relative;
   }
+  .About-page-template .overlay_color {
+    position: absolute;
+    content: 'test';
+    background: #000;
+    top: 0;
+    bottom: 0;
+    width: 40%;
+    height: 10px;
+    left: 0;
+}
 
   @media screen and (max-width: 1199px){
     .main_navigation_section .list-menu--inline {
