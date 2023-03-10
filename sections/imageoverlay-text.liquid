@@ -14,7 +14,7 @@
     top: 0;
     bottom: 0;
     left: 0;
-    width: 40%;
+    width: {{ section.settings.width_overlay }};
 }
 
   @media screen and (min-width: 750px) {
@@ -106,8 +106,17 @@
         "id": "overlay_color",
         "label": "Overlay color",
         "default": "#ECCAC2"
-
     },
+    {
+        "type": "range",
+        "id": "width_overlay",
+        "min": 0,
+        "max": 100,
+        "step": 2,
+        "unit": "%",
+        "label": "Width Overlay",
+        "default": 40
+      },
     {
       "type": "select",
       "id": "layout",
