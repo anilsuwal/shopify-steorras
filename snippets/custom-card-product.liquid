@@ -36,6 +36,12 @@
   {% comment %} {%- if card_product.tags == 'popular' -%}
     <div class="custom-badge"></div>
   {%- endif -%} {% endcomment %}
+  {% for tag in card_product.tags %}
+    {% if discountCode contains tag  %} 
+         Extra in-Cart Discount
+         {% break %}
+      {% endif %}
+{% endfor %}
   <div class="card-wrapper product-card-wrapper underline-links-hover">
     <div
       class="
