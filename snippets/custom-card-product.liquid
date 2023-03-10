@@ -49,7 +49,7 @@
       {% assign tags = card_product.tags %}
       {% for tag in tags %}
         {% if tag contains 'Popular' or tag contains 'On Sale' %}
-          <h4 class="custom-badge">{{ tag }}</h4>
+          <div class="custom-badge">{{ tag }}</div>
           {% break %}
         {% endif %}
       {% endfor %}
