@@ -35,7 +35,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/image_19_1.png",
         "overlay_image": false,
-        "overlay_color": "#000000",
+        "overlay_color": "#eccac2",
         "width_overlay": 40,
         "margin_top": 80,
         "margin_bottom": 80,
