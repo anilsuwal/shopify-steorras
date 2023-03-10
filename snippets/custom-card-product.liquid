@@ -33,12 +33,8 @@
     endif
   -%}
 
-  {% comment %} {%- if card_product.tags == 'popular' -%}
-    <div class="custom-badge"></div>
-  {%- endif -%} {% endcomment %}
   {% assign tags = card_product.tags | split: ',' %}
   {% for tag in tags %}
-    {% comment %} <h4 class="custom-badge">{{ tag }}</h4> {% endcomment %}
     {% if tag contains 'Pop' %}
       <h4 class="custom-badge">{{ tag }}</h4>
     {% endif %}
