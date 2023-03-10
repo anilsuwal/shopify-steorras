@@ -75,8 +75,8 @@
         "remove_card_content": true,
         "columns_mobile": "2",
         "swipe_on_mobile": false,
-        "padding_top": 0,
-        "padding_bottom": 28
+        "padding_top": 16,
+        "padding_bottom": 32
       }
     },
     "198bace3-6626-43c3-ba03-16ecd5e3b2b7": {
