@@ -78,6 +78,11 @@
     color: var(--boulder);
   }
 
+  /* Custom Collection Page Style */
+  .custom-collection-section .grid{
+    --grid-desktop-horizontal-spacing: 15px;
+  }
+
   @media screen and (max-width: 1199px){
     .main_navigation_section .list-menu--inline {
       margin-top: 1.9rem;
