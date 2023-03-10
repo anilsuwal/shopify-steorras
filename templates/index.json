@@ -70,7 +70,6 @@
         "show_secondary_image": false,
         "show_vendor": false,
         "show_rating": false,
-        "enable_quick_add": false,
         "disable_zoom": true,
         "remove_card_content": true,
         "columns_mobile": "2",
@@ -85,14 +84,14 @@
         "template--18110043357494__198bace3-6626-43c3-ba03-16ecd5e3b2b7-1677683556ba4cbe11-0": {
           "type": "heading",
           "settings": {
-            "heading": "Fine jewelry that you'll treasure for a lifetime  ",
+            "heading": "Fine jewelry that you'll treasure for a lifetime",
             "heading_size": "h1"
           }
         },
         "template--18110043357494__198bace3-6626-43c3-ba03-16ecd5e3b2b7-1677683556ba4cbe11-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Thank you for choosing Steorras as your preferred online jewelry store.   <\/p><p>We're dedicated to providing the best online jewelry shopping experience possible, from our user-friendly website to our outstanding customer service. If you have any questions or need assistance with your purchase, our customer service team is always happy to help.<\/p>",
+            "text": "<p>Thank you for choosing Steorras as your preferred online jewelry store.<\/p><p><\/p><p>We're dedicated to providing the best online jewelry shopping experience possible, from our user-friendly website to our outstanding customer service. If you have any questions or need assistance with your purchase, our customer service team is always happy to help.<\/p>",
             "text_style": "body"
           }
         },
@@ -141,7 +140,6 @@
         "show_secondary_image": false,
         "show_vendor": false,
         "show_rating": false,
-        "enable_quick_add": false,
         "disable_zoom": true,
         "remove_card_content": true,
         "columns_mobile": "2",
@@ -220,7 +218,6 @@
         "show_secondary_image": false,
         "show_vendor": false,
         "show_rating": false,
-        "enable_quick_add": false,
         "disable_zoom": true,
         "remove_card_content": true,
         "columns_mobile": "2",
