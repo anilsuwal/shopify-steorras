@@ -37,7 +37,7 @@
     <div class="custom-badge"></div>
   {%- endif -%} {% endcomment %}
   {% for tag in card_product.tags %}
-    {% if discountCode contains tag  %} 
+    {% if card_product.tags contains 'popular'  %} 
          Extra in-Cart Discount
          {% break %}
       {% endif %}
