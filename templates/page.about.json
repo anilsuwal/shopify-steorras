@@ -53,10 +53,54 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "0e7469df-95ff-4275-a5c6-7c74221fd75b": {
+      "type": "imageoverlay-text",
+      "blocks": {
+        "template--18275819520310__0e7469df-95ff-4275-a5c6-7c74221fd75b-16784291520bb8d80d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Jewelry from the Heart  ",
+            "heading_size": "h1"
+          }
+        },
+        "template--18275819520310__0e7469df-95ff-4275-a5c6-7c74221fd75b-16784291520bb8d80d-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Steorras is a fine jewelry company that was founded by two sisters. Having grown up in three different countries, the inspiration for their designs is drawn from the unique cultures and their shared experiences of these places. <\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--18275819520310__0e7469df-95ff-4275-a5c6-7c74221fd75b-16784291520bb8d80d-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18275819520310__0e7469df-95ff-4275-a5c6-7c74221fd75b-16784291520bb8d80d-0",
+        "template--18275819520310__0e7469df-95ff-4275-a5c6-7c74221fd75b-16784291520bb8d80d-1",
+        "template--18275819520310__0e7469df-95ff-4275-a5c6-7c74221fd75b-16784291520bb8d80d-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_19_1.png",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
-    "bade6155-5104-4be5-8567-c837dbe0d6e4"
+    "bade6155-5104-4be5-8567-c837dbe0d6e4",
+    "0e7469df-95ff-4275-a5c6-7c74221fd75b"
   ]
 }
