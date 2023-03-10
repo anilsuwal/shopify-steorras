@@ -22,7 +22,6 @@
 
 @media screen and (min-width: 750px){
 .category-list.grid {
-    column-gap: calc(var(--grid-desktop-horizontal-spacing) * 2.5);
-    row-gap: calc(var(--grid-desktop-vertical-spacing) * 2.5);
+    --grid-desktop-horizontal-spacing: 25px;
 }
 }
