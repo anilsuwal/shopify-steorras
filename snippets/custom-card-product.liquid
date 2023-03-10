@@ -32,9 +32,9 @@
       assign ratio = 1
     endif
   -%}
-  {%- if card_product.tags contains 'popular' -%}
+  {% comment %} {%- if card_product.tags contains 'popular' -%}
     <div class="custom-badge">{{ card_product.tags }}</div>
-  {%- endif -%}
+  {%- endif -%} {% endcomment %}
   <div class="card-wrapper product-card-wrapper underline-links-hover">
     <div
       class="
