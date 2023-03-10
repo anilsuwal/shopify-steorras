@@ -36,11 +36,11 @@
   {% comment %} {%- if card_product.tags == 'popular' -%}
     <div class="custom-badge"></div>
   {%- endif -%} {% endcomment %}
-  {% comment %} {% for tag in card_product.tags %}
+  {% for tag in card_product.tags %}
     {% if tag == 'popular' %} 
     <h4 class="custom-badge">{{ card_product.tags }}</h4>
       {% endif %}
-{% endfor %} {% endcomment %}
+{% endfor %}
   <div class="card-wrapper product-card-wrapper underline-links-hover">
     <div
       class="
