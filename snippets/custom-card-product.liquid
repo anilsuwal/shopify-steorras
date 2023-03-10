@@ -33,14 +33,6 @@
     endif
   -%}
 
-  {% assign tags = card_product.tags %}
-  {% for tag in tags %}
-    {% if tag contains 'Popular' or tag contains 'On Sale' %}
-      <h4 class="custom-badge">{{ tag }}</h4>
-      {% break %}
-    {% endif %}
-  {% endfor %}
-  
   <div class="card-wrapper product-card-wrapper underline-links-hover">
     <div
       class="
@@ -54,6 +46,13 @@
       "
       style="--ratio-percent: {{ 1 | divided_by: ratio | times: 100 }}%;"
     >
+      {% assign tags = card_product.tags %}
+      {% for tag in tags %}
+        {% if tag contains 'Popular' or tag contains 'On Sale' %}
+          <h4 class="custom-badge">{{ tag }}</h4>
+          {% break %}
+        {% endif %}
+      {% endfor %}
       <div
         class="card__inner {% if settings.card_style == 'standard' %}color-{{ settings.card_color_scheme }} gradient{% endif %}{% if card_product.featured_media or settings.card_style == 'standard' %} ratio{% endif %}"
         style="--ratio-percent: {{ 1 | divided_by: ratio | times: 100 }}%;"
