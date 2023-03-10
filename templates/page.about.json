@@ -40,7 +40,7 @@
         "margin_top": 80,
         "margin_bottom": 80,
         "layout": "image_first",
-        "desktop_content_position": "bottom",
+        "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "color_scheme": "background-1",
         "mobile_content_alignment": "left",
