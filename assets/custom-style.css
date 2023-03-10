@@ -63,6 +63,7 @@
   }
   .About-page-template  .image-with-text__media {
     border-radius: 2rem;
+    margin-right: 4rem;
   }
   .About-page-template  .image-with-text__media img {
     position: relative !important;
