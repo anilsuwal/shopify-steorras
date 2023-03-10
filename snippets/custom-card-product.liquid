@@ -37,7 +37,7 @@
     <div class="custom-badge"></div>
   {%- endif -%} {% endcomment %}
   {% for tag in card_product.tags %}
-    {% if card_product.tags contains 'popular'  %} 
+    {% if tag contains popular %} 
     <h4>{{ card_product.tags }}</h4>
          {% break %}
       {% endif %}
