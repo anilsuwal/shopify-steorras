@@ -19,6 +19,9 @@
     color: #767576;
     text-decoration: none;
 }
+.category-list.grid {
+    --grid-desktop-horizontal-spacing: 25px;
+}
 
 @media screen and (min-width: 750px){
 .category-list.grid {
