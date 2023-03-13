@@ -67,7 +67,7 @@
             class="multicolumn-list__item grid__item{% if section.settings.column_alignment == 'center' %} center{% endif %}{{ empty_column }}"
             {{ block.shopify_attributes }}
           >
-            <div class="multicolumn-card content-container">
+            <div class="multicolumn-card content-container {%- if block.settings.text != blank -%} paragraph-content {%- endif -%}">
               {%- if block.settings.image != blank -%}
                 <div class="multicolumn-card__image-wrapper multicolumn-card__image-wrapper--full-width">
                   <div class="media media--transparent media--adapt"style="padding-bottom: {{ 1 | divided_by: highest_ratio | times: 100 }}%;">
