@@ -28,7 +28,8 @@
   color: {{ section.settings.button_color }}; 
   background-color: {{ section.settings.button_bg_color }};
 }
-.grid--3-col-desktop .grid__item {
+@media screen and (min)
+.grid--3-col-desktop-large .grid__item {
     width: calc(33.33% - var(--grid-desktop-horizontal-spacing) * 2 / 3);
     max-width: calc(33.33% - var(--grid-desktop-horizontal-spacing) * 2 / 3);
   }
