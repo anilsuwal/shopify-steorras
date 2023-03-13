@@ -130,7 +130,6 @@
             {% assign tags = card_product.tags %}
             {% for tag in tags %}
               {% if tag contains 'Popular' or tag contains 'On Sale' %}
-                {% comment %} <div class="custom-badge">{{ tag }}</div> {% endcomment %}
                 <span
                   id="NoMediaStandardBadge-{{ section_id }}-{{ card_product.id }}"
                   class="badge badge--bottom-left custom-popular_sale-badge"
