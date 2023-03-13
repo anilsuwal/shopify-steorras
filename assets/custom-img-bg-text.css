@@ -77,4 +77,8 @@
     .three-column-section .column_box_heading, .image-with-bg-full .image-with-text__heading, .custom-product-category h4.title {
       font-size: calc(var(--font-heading-scale) * 3.4rem);
     }
+    .section-template--18110043357494__198bace3-6626-43c3-ba03-16ecd5e3b2b7-padding {
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
   }
