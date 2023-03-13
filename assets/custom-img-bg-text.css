@@ -71,7 +71,7 @@
       font-size: calc(var(--font-heading-scale) * 2.4rem);
       margin-bottom: 3rem;
     }
-    .three-column-section .column_box_btn {
+    .three-column-section .paragraph-content .column_box_btn {
       margin-top: 3rem;
     }
   }
