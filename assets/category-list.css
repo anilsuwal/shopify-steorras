@@ -28,3 +28,8 @@
     --grid-desktop-horizontal-spacing: 25px;
 }
 }
+@media screen and (max-width: 1399px){
+    .custom-product-category h4.title {
+      font-size: calc(var(--font-heading-scale) * 3.4rem);
+    }
+  }
