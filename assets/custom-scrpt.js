@@ -3,6 +3,6 @@ jQuery(document).ready(function(){
     jQuery(".paragraph-content").closest(".three_layout_with_text").addClass("grid--3-col-desktop-large");
   }
   else {
-    jQuery(".paragraph-content").closest(".three_layout_with_text").addClass("grid--3-col-desktop");
+    jQuery(".multicolumn-list__item").closest(".three_layout_with_text").addClass("grid--3-col-desktop");
   }
   });
