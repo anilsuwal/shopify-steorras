@@ -46,8 +46,7 @@
   <div class="section-{{ section.id }}-padding isolate">
     <div class="slider-mobile-gutter">
       <ul
-        class="multicolumn-list contains-content-container grid grid--{{ section.settings.columns_mobile }}-col-tablet-down grid--3-col-desktop 
-        {% if section.settings.text_center_alignment %}align-center{% endif %}"
+        class="multicolumn-list three_layout_with_text contains-content-container grid grid--{{ section.settings.columns_mobile }}-col-tablet-down grid--3-col-desktop {% if section.settings.text_center_alignment %}align-center{% endif %}"
         id="Slider-{{ section.id }}"
         role="list"
       >

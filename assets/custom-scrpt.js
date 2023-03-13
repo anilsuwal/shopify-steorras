@@ -1,3 +1,3 @@
 jQuery(document).ready(function(){
-    jQuery(".paragraph-content").closest(".grid--3-col-desktop").addClass("main_sub_title_bold");
+    jQuery(".paragraph-content").closest(".three_layout_with_text").addClass("main_sub_title_bold");
   });
