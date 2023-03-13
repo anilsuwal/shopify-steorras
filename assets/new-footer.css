@@ -13,7 +13,7 @@
     padding: 4rem 0;
 }
 .footer_main_section .footer-block__heading {
-    font-size: calc(var(--font-heading-scale) * 2rem);
+    font-size: calc(var(--font-heading-scale) * 2.4rem);
     text-transform: capitalize;
     color: var(--alabaster);
     line-height: normal;
