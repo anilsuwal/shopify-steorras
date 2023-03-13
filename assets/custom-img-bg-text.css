@@ -68,6 +68,10 @@
   /* Responsive Section */
   @media screen and (max-width: 1399px){
     .three-column-section .paragraph-content .column_box_heading {
-      
+      font-size: calc(var(--font-heading-scale) * 2.4rem);
+      margin-bottom: 3rem;
+    }
+    .three-column-section .column_box_btn {
+      margin-top: 3rem;
     }
   }
