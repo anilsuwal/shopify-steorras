@@ -113,5 +113,9 @@
 }
 
 /* Responsive Section */
-@media screen and (max-width: 1399)
+@media screen and (max-width: 1399px) {
+    .footer__content-top {
+        padding-bottom: 6rem;
+    }
+}
 
