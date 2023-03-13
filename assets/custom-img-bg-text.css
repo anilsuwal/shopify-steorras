@@ -35,8 +35,8 @@
   }
 
   /* Three Column Layout css */
-  .section-template--18110043357494__4493f219-44e0-482c-9ba7-7f440ab49286-padding .column_box_heading {
-    
+  .three-column-section .section-template--18110043357494__4493f219-44e0-482c-9ba7-7f440ab49286-padding .column_box_heading {
+
   }
   .three-column-section .column_box_heading {
     font-size: calc(var(--font-heading-scale) * 3.8rem);
