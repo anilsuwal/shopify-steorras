@@ -114,9 +114,9 @@
 
 /* Responsive Section */
 @media screen and (max-width: 1399px) {
-    .section-sections--18110042898742__footer-padding {
+    /* .section-sections--18110042898742__footer-padding {
       padding-top: 60px;
-    }
+    } */
     .footer__content-top {
         padding-bottom: 6rem;
     }
