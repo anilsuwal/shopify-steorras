@@ -13,7 +13,7 @@
     padding: 4rem 0;
 }
 .footer_main_section .footer-block__heading {
-    font-size: calc(var(--font-heading-scale) * 2rem);
+    font-size: calc(var(--font-heading-scale) * 2.4rem);
     text-transform: capitalize;
     color: var(--alabaster);
     line-height: normal;
@@ -110,5 +110,16 @@
 }
 .policies li:first-child:before {
     content: "";
+}
+
+/* Responsive Section */
+@media screen and (max-width: 1399px) {
+    
+    .footer__content-top {
+        padding-bottom: 6rem;
+    }
+    .policies {
+        margin: 2.7rem 0 0rem;
+    }
 }
 

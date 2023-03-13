@@ -11,7 +11,7 @@
     color: var(--plain-white);
     letter-spacing: 1.8px;
     min-height: initial;
-    padding: 1.8rem 6rem;
+    padding: 1.5rem 6rem;
     border-radius: 1.6rem;
     margin-top: 5rem !important;
   }
@@ -35,6 +35,10 @@
   }
 
   /* Three Column Layout css */
+  .three-column-section .section-template--18110043357494__4493f219-44e0-482c-9ba7-7f440ab49286-padding .column_box_heading {
+    max-width: 40rem;
+    margin: 0 auto 5rem;
+  }
   .three-column-section .column_box_heading {
     font-size: calc(var(--font-heading-scale) * 3.8rem);
     line-height: calc(1 + .2 / var(--font-body-scale));
@@ -58,4 +62,19 @@
   .three-column-section .column_box_btn:before, .three-column-section .column_box_btn:after, .three-column-section .column_box_btn:hover:before, .three-column-section .column_box_btn:hover:after {
     border: 0;
     box-shadow: none;
+  }
+
+
+  /* Responsive Section */
+  @media screen and (max-width: 1399px){
+    .three-column-section .paragraph-content .column_box_heading {
+      font-size: calc(var(--font-heading-scale) * 2.4rem);
+      margin-bottom: 3rem;
+    }
+    .three-column-section .paragraph-content .column_box_btn {
+      margin-top: 3rem;
+    }
+    .three-column-section .column_box_heading, .image-with-bg-full .image-with-text__heading {
+      font-size: calc(var(--font-heading-scale) * 3.4rem);
+    }
   }

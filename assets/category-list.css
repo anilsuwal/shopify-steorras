@@ -1,8 +1,7 @@
 .custom-product-category h4.title {
-    font-size: calc(var(--font-heading-scale) * 2.4rem);
+    font-size: calc(var(--font-heading-scale) * 3.8rem);
     line-height: 48px;
-    font-family: 'Safira March Personal Use', sans-serif;
-    letter-spacing: 1.8px;
+    letter-spacing: 1.2px;
     margin: 0 auto 5rem;
 }
 .custom-product-category .category-list-item img {
@@ -10,7 +9,8 @@
     border-radius: 1rem;
 }
 .custom-product-category .category-list-item p {
-    font-size: calc(var(--font-heading-scale) * 1.8rem);
+    font-family: var(--font-heading-family);
+    font-size: calc(var(--font-heading-scale) * 2.4rem);
     color: #767576;
     line-height: normal;
     margin-top: 1rem;
@@ -28,3 +28,8 @@
     --grid-desktop-horizontal-spacing: 25px;
 }
 }
+@media screen and (max-width: 1399px){
+    .custom-product-category h4.title {
+      font-size: calc(var(--font-heading-scale) * 3.4rem);
+    }
+  }
