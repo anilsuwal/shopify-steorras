@@ -74,7 +74,7 @@
     .three-column-section .paragraph-content .column_box_btn {
       margin-top: 3rem;
     }
-    .three-column-section .column_box_heading, .image-with-bg-full .image-with-text__heading, .custom-product-category h4.title {
+    .three-column-section .column_box_heading, .image-with-bg-full .image-with-text__heading {
       font-size: calc(var(--font-heading-scale) * 3.4rem);
     }
   }
